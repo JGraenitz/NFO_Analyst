@@ -1,0 +1,541 @@
+{
+  "guid": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+  "name": "Höchstleistung",
+  "untergruppen": [
+    {
+      "guid": "0012ee47-9041-4b5d-9b77-535fba8b1442",
+      "name": "Festplatte",
+      "einstellungen": [
+        {
+          "guid": "6738e2c4-e8a5-4a42-b16a-e040e769756e",
+          "name": "Festplatte ausschalten nach",
+          "moegliche_werte": [],
+          "alias": "DISKIDLE",
+          "minimum": "0x00000000",
+          "maximum": "0xffffffff",
+          "schrittweite": "0x00000001",
+          "einheiten": "Sekunden",
+          "aktueller_wert_wechselstrom": "0x000004b0",
+          "aktueller_wert_gleichstrom": "0x000004b0"
+        }
+      ],
+      "alias": "SUB_DISK"
+    },
+    {
+      "guid": "02f815b5-a5cf-4c84-bf20-649d1f75d3d8",
+      "name": "Internet Explorer-Modus",
+      "einstellungen": [
+        {
+          "guid": "4c793e7d-a264-42e1-87d3-7a0d2f523ccd",
+          "name": "JavaScript-Timerfrequenz",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Maximale Energieeinsparungen"
+            },
+            {
+              "index": "001",
+              "name": "Höchstleistung"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        }
+      ]
+    },
+    {
+      "guid": "0d7dbae2-4294-402a-ba8e-26777e8488cd",
+      "name": "Desktop-Hintergrundeinstellungen",
+      "einstellungen": [
+        {
+          "guid": "309dce9b-bef4-4119-9921-a851fb12f0f4",
+          "name": "Diashow",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Verfügbar"
+            },
+            {
+              "index": "001",
+              "name": "Angehalten"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ]
+    },
+    {
+      "guid": "19cbb8fa-5279-450e-9fac-8a3d5fedd0c1",
+      "name": "Drahtlosadaptereinstellungen",
+      "einstellungen": [
+        {
+          "guid": "12bbebe6-58d6-4636-95bb-3217ef867c1a",
+          "name": "Energiesparmodus",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Höchstleistung"
+            },
+            {
+              "index": "001",
+              "name": "Minimaler Energiesparmodus"
+            },
+            {
+              "index": "002",
+              "name": "Mittlerer Energiesparmodus"
+            },
+            {
+              "index": "003",
+              "name": "Maximaler Energiesparmodus"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ]
+    },
+    {
+      "guid": "238c9fa8-0aad-41ed-83f4-97be242c8f20",
+      "name": "Energie sparen",
+      "einstellungen": [
+        {
+          "guid": "29f6c1db-86da-48c5-9fdb-f2b67b1f44da",
+          "name": "Deaktivierung nach",
+          "moegliche_werte": [],
+          "alias": "STANDBYIDLE",
+          "minimum": "0x00000000",
+          "maximum": "0xffffffff",
+          "schrittweite": "0x00000001",
+          "einheiten": "Sekunden",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        },
+        {
+          "guid": "94ac6d29-73ce-41a6-809f-6363ba21b47e",
+          "name": "Hybriden Standbymodus zulassen",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Aus"
+            },
+            {
+              "index": "001",
+              "name": "Ein"
+            }
+          ],
+          "alias": "HYBRIDSLEEP",
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        },
+        {
+          "guid": "9d7815a6-7ee4-497e-8888-515a05f02364",
+          "name": "Ruhezustand nach",
+          "moegliche_werte": [],
+          "alias": "HIBERNATEIDLE",
+          "minimum": "0x00000000",
+          "maximum": "0xffffffff",
+          "schrittweite": "0x00000001",
+          "einheiten": "Sekunden",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        },
+        {
+          "guid": "bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d",
+          "name": "Zeitgeber zur Aktivierung zulassen",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Deaktivieren"
+            },
+            {
+              "index": "001",
+              "name": "Aktivieren"
+            },
+            {
+              "index": "002",
+              "name": "Nur wichtige Aktivierungszeitgeber"
+            }
+          ],
+          "alias": "RTCWAKE",
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ],
+      "alias": "SUB_SLEEP"
+    },
+    {
+      "guid": "2a737441-1930-4402-8d77-b2bebba308a3",
+      "name": "USB-Einstellungen",
+      "einstellungen": [
+        {
+          "guid": "48e6b7a6-50f5-4782-a5d4-53bb8f07e226",
+          "name": "Einstellung für selektives USB-Energiesparen",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Deaktiviert"
+            },
+            {
+              "index": "001",
+              "name": "Aktiviert"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        }
+      ]
+    },
+    {
+      "guid": "4f971e89-eebd-4455-a8de-9e59040e7347",
+      "name": "Netzschalter und Zuklappen",
+      "einstellungen": [
+        {
+          "guid": "a7066653-8d6c-40a8-910e-a1f54b84c7e5",
+          "name": "Netzschalter im Startmenü",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Energie sparen"
+            },
+            {
+              "index": "001",
+              "name": "Ruhezustand"
+            },
+            {
+              "index": "002",
+              "name": "Herunterfahren"
+            }
+          ],
+          "alias": "UIBUTTON_ACTION",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ],
+      "alias": "SUB_BUTTONS"
+    },
+    {
+      "guid": "501a4d13-42af-4429-9fd1-a8218c268e20",
+      "name": "PCI Express",
+      "einstellungen": [
+        {
+          "guid": "ee12f906-d277-404b-b6da-e5fa1a576df5",
+          "name": "Verbindungszustand-Energieverwaltung",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Aus"
+            },
+            {
+              "index": "001",
+              "name": "Mittlere Energieeinsparungen"
+            },
+            {
+              "index": "002",
+              "name": "Maximale Energieeinsparungen"
+            }
+          ],
+          "alias": "ASPM",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ],
+      "alias": "SUB_PCIEXPRESS"
+    },
+    {
+      "guid": "54533251-82be-4824-96c1-47b60b740d00",
+      "name": "Prozessorenergieverwaltung",
+      "einstellungen": [
+        {
+          "guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+          "name": "Minimaler Leistungszustand des Prozessors",
+          "moegliche_werte": [],
+          "alias": "PROCTHROTTLEMIN",
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000064",
+          "aktueller_wert_gleichstrom": "0x00000005"
+        },
+        {
+          "guid": "94d3a615-a899-4ac5-ae2b-e4d8f634367f",
+          "name": "Systemkühlungsrichtlinie",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Passiv"
+            },
+            {
+              "index": "001",
+              "name": "Aktiv"
+            }
+          ],
+          "alias": "SYSCOOLPOL",
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        },
+        {
+          "guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+          "name": "Maximaler Leistungszustand des Prozessors",
+          "moegliche_werte": [],
+          "alias": "PROCTHROTTLEMAX",
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000064",
+          "aktueller_wert_gleichstrom": "0x00000064"
+        }
+      ],
+      "alias": "SUB_PROCESSOR"
+    },
+    {
+      "guid": "7516b95f-f776-4464-8c53-06167f40cc99",
+      "name": "Bildschirm",
+      "einstellungen": [
+        {
+          "guid": "3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e",
+          "name": "Bildschirm ausschalten nach",
+          "moegliche_werte": [],
+          "alias": "VIDEOIDLE",
+          "minimum": "0x00000000",
+          "maximum": "0xffffffff",
+          "schrittweite": "0x00000001",
+          "einheiten": "Sekunden",
+          "aktueller_wert_wechselstrom": "0x00004650",
+          "aktueller_wert_gleichstrom": "0x00000258"
+        },
+        {
+          "guid": "aded5e82-b909-4619-9949-f5d71dac0bcb",
+          "name": "Bildschirmhelligkeit",
+          "moegliche_werte": [],
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000064",
+          "aktueller_wert_gleichstrom": "0x00000064"
+        },
+        {
+          "guid": "f1fbfde2-a960-4165-9f88-50667911ce96",
+          "name": "Bildschirmhelligkeit beim Verdunkeln",
+          "moegliche_werte": [],
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000032",
+          "aktueller_wert_gleichstrom": "0x00000032"
+        },
+        {
+          "guid": "fbd9aa66-9553-4097-ba44-ed6e9d65eab8",
+          "name": "Adaptive Helligkeit aktivieren",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Aus"
+            },
+            {
+              "index": "001",
+              "name": "Ein"
+            }
+          ],
+          "alias": "ADAPTBRIGHT",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ],
+      "alias": "SUB_VIDEO"
+    },
+    {
+      "guid": "9596fb26-9850-41fd-ac3e-f7c3c00afd4b",
+      "name": "Multimediaeinstellungen",
+      "einstellungen": [
+        {
+          "guid": "03680956-93bc-4294-bba6-4e0f09bb717f",
+          "name": "Bei der Freigabe von Medien",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Der Computer kann in den Energiesparmodus wechseln"
+            },
+            {
+              "index": "001",
+              "name": "Wechseln in den Energiesparmodus bei Inaktivität verhindern"
+            },
+            {
+              "index": "002",
+              "name": "Wechseln in den Modus \"Abwesend\" zulassen"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        },
+        {
+          "guid": "10778347-1370-4ee0-8bbd-33bdacaade49",
+          "name": "Qualitätsausgleich bei Videowiedergabe",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Energiesparender Bias für die Videowiedergabe"
+            },
+            {
+              "index": "001",
+              "name": "Leistungsanpassung bei Videowiedergabe"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        },
+        {
+          "guid": "34c7b99f-9a6d-4b3c-8dc7-b6693b78cef4",
+          "name": "Bei der Videowiedergabe",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Videoqualität optimieren"
+            },
+            {
+              "index": "001",
+              "name": "Ausbalanciert"
+            },
+            {
+              "index": "002",
+              "name": "Energieeinsparung optimieren"
+            }
+          ],
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        }
+      ]
+    },
+    {
+      "guid": "e73a048d-bf27-4f12-9731-8b2076e8891f",
+      "name": "Akku",
+      "einstellungen": [
+        {
+          "guid": "5dbb7c9f-38e9-40d2-9749-4f8a0e9f640f",
+          "name": "Benachrichtigung bei kritischer Akkukapazität",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Aus"
+            },
+            {
+              "index": "001",
+              "name": "Ein"
+            }
+          ],
+          "alias": "BATFLAGSCRIT",
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        },
+        {
+          "guid": "637ea02f-bbcb-4015-8e2c-a1c7b9c0b546",
+          "name": "Aktion bei kritischer Akkukapazität",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Nichts unternehmen"
+            },
+            {
+              "index": "001",
+              "name": "Energie sparen"
+            },
+            {
+              "index": "002",
+              "name": "Ruhezustand"
+            },
+            {
+              "index": "003",
+              "name": "Herunterfahren"
+            }
+          ],
+          "alias": "BATACTIONCRIT",
+          "aktueller_wert_wechselstrom": "0x00000002",
+          "aktueller_wert_gleichstrom": "0x00000002"
+        },
+        {
+          "guid": "8183ba9a-e910-48da-8769-14ae6dc1170a",
+          "name": "Niedrige Akkukapazität",
+          "moegliche_werte": [],
+          "alias": "BATLEVELLOW",
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x0000000a",
+          "aktueller_wert_gleichstrom": "0x0000000a"
+        },
+        {
+          "guid": "9a66d8d7-4ff7-4ef9-b5a2-5a326ca2a469",
+          "name": "Kritische Akkukapazität",
+          "moegliche_werte": [],
+          "alias": "BATLEVELCRIT",
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000005",
+          "aktueller_wert_gleichstrom": "0x00000005"
+        },
+        {
+          "guid": "bcded951-187b-4d05-bccc-f7e51960c258",
+          "name": "Benachrichtigung bei niedriger Akkukapazität",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Aus"
+            },
+            {
+              "index": "001",
+              "name": "Ein"
+            }
+          ],
+          "alias": "BATFLAGSLOW",
+          "aktueller_wert_wechselstrom": "0x00000001",
+          "aktueller_wert_gleichstrom": "0x00000001"
+        },
+        {
+          "guid": "d8742dcb-3e6a-4b3c-b3fe-374623cdcf06",
+          "name": "Aktion bei niedriger Akkukapazität",
+          "moegliche_werte": [
+            {
+              "index": "000",
+              "name": "Nichts unternehmen"
+            },
+            {
+              "index": "001",
+              "name": "Energie sparen"
+            },
+            {
+              "index": "002",
+              "name": "Ruhezustand"
+            },
+            {
+              "index": "003",
+              "name": "Herunterfahren"
+            }
+          ],
+          "alias": "BATACTIONLOW",
+          "aktueller_wert_wechselstrom": "0x00000000",
+          "aktueller_wert_gleichstrom": "0x00000000"
+        },
+        {
+          "guid": "f3c5027d-cd16-4930-aa6b-90db844a8f00",
+          "name": "Akkustand für Reservestrom",
+          "moegliche_werte": [],
+          "minimum": "0x00000000",
+          "maximum": "0x00000064",
+          "schrittweite": "0x00000001",
+          "einheiten": "%",
+          "aktueller_wert_wechselstrom": "0x00000007",
+          "aktueller_wert_gleichstrom": "0x00000007"
+        }
+      ],
+      "alias": "SUB_BATTERY"
+    }
+  ],
+  "alias": "SCHEME_MIN"
+}

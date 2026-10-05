@@ -1,0 +1,44 @@
+{
+  "admin": true,
+  "laufwerke": [
+    {
+      "laufwerk": "C:",
+      "erfolgreich": true,
+      "medientyp": null,
+      "ist_ssd": false,
+      "gesamtfragmentierung_prozent": 1,
+      "fragmentierte_dateien_anzahl": 6192,
+      "dateifragmente_gesamt_anzahl": 28057,
+      "durchschnittliche_fragmente_pro_datei": 1.01,
+      "empfehlung_laut_defrag": "Dieses Volume muss nicht defragmentiert werden.",
+      "status": "ok",
+      "rohtext": "\r\n\"Analyse\" wird für \"(C:)\" aufgerufen...\r\r\n\r\n\r\nDer Vorgang wurde abgeschlossen.\r\n\r\nPost Defragmentation Report:\r\n\r\r\n\tVolumeinformationen:\r\n\t\tVolumegröße                 = 930,88 GB\r\n\t\tClustergröße                = 4 KB\r\n\t\tBelegter Speicherplatz      = 841,51 GB\r\n\t\tFreier Speicherplatz        = 89,36 GB\r\n\r\r\n\tFragmentierung:\r\n\t\tFragmentierter Speicherplatz insgesamt      = 1%\r\n\t\tDurchschnittliche Fragmente pro Datei  = 1,01\r\n\r\n\t\tDateien und Ordner, die verschoben werden können   = 2686924\r\n\t\tDateien und Ordner, die nicht verschoben werden können = 11\r\n\r\r\n\tDateien:\r\n\t\tFragmentierte Dateien            = 6192\r\n\t\tDateifragmente insgesamt        = 28057\r\n\r\r\n\tOrdner:\r\n\t\tOrdner insgesamt               = 150761\r\n\t\tFragmentierte Ordner          = 100\r\n\t\tOrdnerfragmente insgesamt      = 235\r\n\r\r\n\tFreier Speicherplatz:\r\n\t\tZähler für freien Speicherplatz            = 151371\r\n\t\tDurchschnittlicher freier Speicherplatz     = 652,00 KB\r\n\t\tGrößter freier Speicherplatz     = 7,62 GB\r\n\r\r\n\tMaster File Table (MFT):\r\n\t\tMFT-Größe                       = 4,53 GB\r\n\t\tAnzahl von MFT-Datensätzen      = 4756223\r\n\t\tMFT-Verwendung                  = 100 %\r\n\t\tMFT-Fragmente insgesamt         = 24\r\n\r\n\tHinweis: Dateifragmente, die größer als 64 MB sind, sind nicht in den Fragmentierungsstatistiken enthalten.\r\n\r\r\n\tDieses Volume muss nicht defragmentiert werden.\r\n"
+    },
+    {
+      "laufwerk": "D:",
+      "erfolgreich": true,
+      "medientyp": null,
+      "ist_ssd": false,
+      "gesamtfragmentierung_prozent": 3,
+      "fragmentierte_dateien_anzahl": 844,
+      "dateifragmente_gesamt_anzahl": 20729,
+      "durchschnittliche_fragmente_pro_datei": 1.12,
+      "empfehlung_laut_defrag": "Dieses Volume muss nicht defragmentiert werden.",
+      "status": "ok",
+      "rohtext": "\r\n\"Analyse\" wird für \"(D:)\" aufgerufen...\r\r\n\r\n\r\nDer Vorgang wurde abgeschlossen.\r\n\r\nPost Defragmentation Report:\r\n\r\r\n\tVolumeinformationen:\r\n\t\tVolumegröße                 = 1,81 TB\r\n\t\tClustergröße                = 4 KB\r\n\t\tBelegter Speicherplatz      = 1,28 TB\r\n\t\tFreier Speicherplatz        = 542,03 GB\r\n\r\r\n\tFragmentierung:\r\n\t\tFragmentierter Speicherplatz insgesamt      = 3%\r\n\t\tDurchschnittliche Fragmente pro Datei  = 1,12\r\n\r\n\t\tDateien und Ordner, die verschoben werden können   = 174410\r\n\t\tDateien und Ordner, die nicht verschoben werden können = 4\r\n\r\r\n\tDateien:\r\n\t\tFragmentierte Dateien            = 844\r\n\t\tDateifragmente insgesamt        = 20729\r\n\r\r\n\tOrdner:\r\n\t\tOrdner insgesamt               = 3365\r\n\t\tFragmentierte Ordner          = 11\r\n\t\tOrdnerfragmente insgesamt      = 29\r\n\r\r\n\tFreier Speicherplatz:\r\n\t\tZähler für freien Speicherplatz            = 916\r\n\t\tDurchschnittlicher freier Speicherplatz     = 605,74 MB\r\n\t\tGrößter freier Speicherplatz     = 132,26 GB\r\n\r\r\n\tMaster File Table (MFT):\r\n\t\tMFT-Größe                       = 344,75 MB\r\n\t\tAnzahl von MFT-Datensätzen      = 353023\r\n\t\tMFT-Verwendung                  = 100 %\r\n\t\tMFT-Fragmente insgesamt         = 2\r\n\r\n\tHinweis: Dateifragmente, die größer als 64 MB sind, sind nicht in den Fragmentierungsstatistiken enthalten.\r\n\r\r\n\tDieses Volume muss nicht defragmentiert werden.\r\n"
+    },
+    {
+      "laufwerk": "E:",
+      "erfolgreich": true,
+      "medientyp": null,
+      "ist_ssd": false,
+      "gesamtfragmentierung_prozent": 9,
+      "fragmentierte_dateien_anzahl": 760,
+      "dateifragmente_gesamt_anzahl": 243830,
+      "durchschnittliche_fragmente_pro_datei": 1.34,
+      "empfehlung_laut_defrag": "Dieses Volume muss nicht defragmentiert werden.",
+      "status": "ok",
+      "rohtext": "\r\n\"Analyse\" wird für \"Volume (E:)\" aufgerufen...\r\r\n\r\n\r\nDer Vorgang wurde abgeschlossen.\r\n\r\nPost Defragmentation Report:\r\n\r\r\n\tVolumeinformationen:\r\n\t\tVolumegröße                 = 3,63 TB\r\n\t\tClustergröße                = 4 KB\r\n\t\tBelegter Speicherplatz      = 3,03 TB\r\n\t\tFreier Speicherplatz        = 616,70 GB\r\n\r\r\n\tFragmentierung:\r\n\t\tFragmentierter Speicherplatz insgesamt      = 9%\r\n\t\tDurchschnittliche Fragmente pro Datei  = 1,34\r\n\r\n\t\tDateien und Ordner, die verschoben werden können   = 726472\r\n\t\tDateien und Ordner, die nicht verschoben werden können = 4\r\n\r\r\n\tDateien:\r\n\t\tFragmentierte Dateien            = 760\r\n\t\tDateifragmente insgesamt        = 243830\r\n\r\r\n\tOrdner:\r\n\t\tOrdner insgesamt               = 14144\r\n\t\tFragmentierte Ordner          = 12\r\n\t\tOrdnerfragmente insgesamt      = 28\r\n\r\r\n\tFreier Speicherplatz:\r\n\t\tZähler für freien Speicherplatz            = 15043\r\n\t\tDurchschnittlicher freier Speicherplatz     = 41,96 MB\r\n\t\tGrößter freier Speicherplatz     = 44,47 GB\r\n\r\r\n\tMaster File Table (MFT):\r\n\t\tMFT-Größe                       = 911,75 MB\r\n\t\tAnzahl von MFT-Datensätzen      = 933631\r\n\t\tMFT-Verwendung                  = 100 %\r\n\t\tMFT-Fragmente insgesamt         = 4\r\n\r\n\tHinweis: Dateifragmente, die größer als 64 MB sind, sind nicht in den Fragmentierungsstatistiken enthalten.\r\n\r\r\n\tDieses Volume muss nicht defragmentiert werden.\r\n"
+    }
+  ]
+}

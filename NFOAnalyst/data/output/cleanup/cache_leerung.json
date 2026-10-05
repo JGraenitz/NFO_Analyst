@@ -1,0 +1,29 @@
+{
+  "zusammenfassung": {
+    "durchgefuehrt_am": "2026-09-15T11:27:23",
+    "anzahl_ordner": 2,
+    "geloescht_bytes_gesamt": 666994937,
+    "geloescht_eintraege_gesamt": 534,
+    "anzahl_fehler_gesamt": 55
+  },
+  "ordner": [
+    {
+      "name": "Benutzer-Temp",
+      "pfad": "C:\\Users\\Jordan\\AppData\\Local\\Temp",
+      "existiert": true,
+      "zugreifbar": true,
+      "geloescht_bytes": 666994937,
+      "geloescht_eintraege": 534,
+      "anzahl_fehler": 55
+    },
+    {
+      "name": "Windows-Temp (System, evtl. Admin nötig)",
+      "pfad": "C:\\Windows\\Temp",
+      "existiert": true,
+      "zugreifbar": false,
+      "geloescht_bytes": 0,
+      "geloescht_eintraege": 0,
+      "anzahl_fehler": 0
+    }
+  ]
+}

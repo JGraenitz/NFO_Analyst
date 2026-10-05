@@ -1,0 +1,412 @@
+
+====================================================================================================
+Treibervergleich FurMark (Intel UHD 630) – Mehrfachzyklen
+====================================================================================================
+Erwarteter Ablauf je Zyklus: 60 s Leerlauf -> 180 s Last -> 60 s Leerlauf, 10 Zyklen je Datei
+Parameter: Glättung 5.0 s, Mindestlast 90 s, Lastfenster = vollständiges Plateau, Abstand Leerlauffenster zu Flanken 5.0 s, Leerlauffenster 50 s
+Mehrverbrauch (Delta) berechnet aus: Mittelwerten
+
+----------------------------------------------------------------------------------------------------
+1. Datenqualität je Datei
+----------------------------------------------------------------------------------------------------
+Treiber                 Datei                               Werte     Dauer  Δt Median   Δt max  Lücken  Schwelle Idle-Niv. Last-Niv.  Trennung
+ALT (31.0.101.2115)     Messung_gpu_alt.log                  3094    52.1 m      1.01s     1.0s       0    31.78W     9.28W    54.28W      66.0
+MITTEL (31.0.101.2135)  Messung_gpu_mittel.log               3090    52.0 m      1.01s     1.0s       0    30.73W     8.13W    53.33W      58.7
+NEU (31.0.101.2141)     Messung_gpu_neu.log                  3070    51.6 m      1.01s     1.0s       0    30.79W     8.23W    53.35W      58.0
+
+Trennung = Abstand Leerlauf-/Lastniveau in Einheiten der robusten Streuung. Unter 5 ist die automatische Erkennung unsicher.
+
+----------------------------------------------------------------------------------------------------
+2. Zyklenerkennung und Ablaufprüfung
+----------------------------------------------------------------------------------------------------
+Lastfenster: vollständiges Plateau je Durchlauf, vom ersten bis zum letzten Messwert über der Schwelle (Median 185.8 s, 184.6 bis 187.6 s).
+Plateaubeginn = erster Messwert, der mit den beiden folgenden Werten über der Schwelle liegt (diese drei Werte zählen mit); Plateauende = letzter Messwert vor dem ersten Wert unter der Schwelle.
+Erwartete Periode Lastbeginn -> Lastbeginn: ca. 300 s
+
+Treiber                  gefunden erwartet  Lastdauer Ø     min     max  Periode Ø  Periode σ  unvollst.
+ALT (31.0.101.2115)            10       10       185.7s  184.6s  186.7s     307.1s      0.58s          0
+MITTEL (31.0.101.2135)         10       10       186.0s  184.7s  187.6s     307.7s      0.58s          0
+NEU (31.0.101.2141)            10       10       186.0s  185.6s  186.7s     307.6s      0.73s          0
+
+----------------------------------------------------------------------------------------------------
+2b. Abgleich mit den Steuerskript-Logs
+----------------------------------------------------------------------------------------------------
+Versatz = Plateaubeginn laut Messgerät minus Lastbeginn laut Steuerskript (positive Werte: Leistung steigt nach dem Startbefehl). Der Treiberstand stammt aus dem Kopf des Logs.
+  ALT (31.0.101.2115)      Treiber 31.0.101.2115 (11/16/2022) | Versatz +0.6 bis +3.1 s (Median +2.7 s, n=10) | Scores für 10 Durchläufe
+  MITTEL (31.0.101.2135)   Treiber 31.0.101.2135 (03/06/2025) | Versatz +1.2 bis +2.4 s (Median +1.6 s, n=10) | Scores für 10 Durchläufe
+  NEU (31.0.101.2141)      Treiber 31.0.101.2141 (03/30/2026) | Versatz +1.1 bis +2.8 s (Median +2.0 s, n=10) | Scores für 10 Durchläufe
+
+----------------------------------------------------------------------------------------------------
+3. Kennzahlen je Zyklus
+----------------------------------------------------------------------------------------------------
+Leerlauf = Mittel aus den Fenstern vor und nach der Last; Delta = Last Ø - Leerlauf Ø; CV = Schwankung innerhalb des Lastfensters.
+
+--- ALT (31.0.101.2115) ---
+ Nr   Beginn   Last  Leerl. vor   Last Ø  Leerl. nach   Delta     CV     Max   Energie     Score  Hinweise
+  1    1.1 m   186s       9.15W   53.49W        9.68W  44.07W   3.3%   56.3W    2.7612    1150.0  3 Leerlaufspitze(n) bis 14 W
+  2    6.3 m   185s       9.03W   54.29W        9.12W  45.22W   3.0%   62.0W    2.7856    1148.0  
+  3   11.4 m   187s       9.37W   54.18W        9.77W  44.61W   3.3%   57.0W    2.8140    1167.0  3 Leerlaufspitze(n) bis 16 W
+  4   16.5 m   186s       9.36W   54.18W        9.54W  44.72W   3.2%   57.8W    2.7978    1158.0  1 Leerlaufspitze(n) bis 20 W
+  5   21.6 m   186s       9.51W   54.37W        9.39W  44.92W   3.6%   57.3W    2.8076    1156.0  2 Leerlaufspitze(n) bis 15 W
+  6   26.7 m   186s       9.39W   54.35W        9.34W  44.99W   3.5%   56.9W    2.8089    1161.0  
+  7   31.9 m   186s       9.48W   53.83W        8.92W  44.63W   3.3%   56.0W    2.7848    1133.0  1 Leerlaufspitze(n) bis 14 W
+  8   37.0 m   186s       9.24W   54.18W        9.25W  44.94W   3.2%   56.6W    2.7985    1156.0  7 Leerlaufspitze(n) bis 15 W
+  9   42.1 m   186s       8.92W   54.09W        9.26W  45.00W   2.4%   56.2W    2.7935    1149.0  3 Leerlaufspitze(n) bis 17 W
+ 10   47.2 m   186s       9.33W   54.16W        9.09W  44.95W   3.1%   56.8W    2.7985    1161.0  3 Leerlaufspitze(n) bis 15 W
+
+--- MITTEL (31.0.101.2135) ---
+ Nr   Beginn   Last  Leerl. vor   Last Ø  Leerl. nach   Delta     CV     Max   Energie     Score  Hinweise
+  1    1.1 m   187s      10.65W   52.91W        7.74W  43.71W   3.2%   63.7W    2.7453     951.0  3 Leerlaufspitze(n) bis 35 W
+  2    6.3 m   188s       8.15W   52.90W       10.82W  43.42W   4.3%   57.7W    2.7628     938.0  Ausreißer, 3 Leerlaufspitze(n) bis 41 W
+  3   11.4 m   186s       8.14W   53.37W        8.39W  45.10W   4.0%   61.9W    2.7580     957.0  2 Leerlaufspitze(n) bis 14 W
+  4   16.5 m   186s       7.89W   53.15W        8.34W  45.03W   3.3%   55.6W    2.7476     976.0  1 Leerlaufspitze(n) bis 13 W
+  5   21.7 m   186s       7.92W   53.14W        8.66W  44.85W   2.9%   55.6W    2.7426     963.0  
+  6   26.8 m   186s       8.08W   53.22W        7.94W  45.21W   3.6%   61.0W    2.7501     959.0  1 Leerlaufspitze(n) bis 14 W
+  7   31.9 m   186s       7.90W   53.05W        7.90W  45.15W   3.5%   55.7W    2.7453     948.0  
+  8   37.1 m   185s       7.76W   53.11W        8.35W  45.06W   2.3%   55.2W    2.7263     972.0  2 Leerlaufspitze(n) bis 13 W
+  9   42.2 m   186s       7.94W   53.14W        7.92W  45.21W   3.5%   55.9W    2.7469     962.0  2 Leerlaufspitze(n) bis 14 W
+ 10   47.3 m   187s       7.56W   52.96W        8.47W  44.95W   4.2%   57.2W    2.7523     961.0  1 Leerlaufspitze(n) bis 14 W
+
+--- NEU (31.0.101.2141) ---
+ Nr   Beginn   Last  Leerl. vor   Last Ø  Leerl. nach   Delta     CV     Max   Energie     Score  Hinweise
+  1    1.1 m   187s      12.14W   52.94W        8.56W  42.60W   4.1%   62.8W    2.7487     923.0  Ausreißer, 5 Leerlaufspitze(n) bis 43 W
+  2    6.2 m   186s       9.03W   53.54W       13.07W  42.49W   4.7%   63.9W    2.7665     954.0  Ausreißer, 3 Leerlaufspitze(n) bis 43 W
+  3   11.4 m   186s       8.51W   53.38W        8.64W  44.81W   3.3%   61.2W    2.7560     965.0  4 Leerlaufspitze(n) bis 15 W
+  4   16.5 m   187s       8.11W   53.13W        8.46W  44.84W   3.9%   62.9W    2.7601     951.0  1 Leerlaufspitze(n) bis 14 W
+  5   21.6 m   186s       8.05W   53.18W        8.13W  45.09W   2.7%   57.4W    2.7429     969.0  1 Leerlaufspitze(n) bis 14 W
+  6   26.7 m   186s       7.79W   53.29W        8.39W  45.20W   3.4%   59.4W    2.7542     948.0  1 Leerlaufspitze(n) bis 14 W
+  7   31.9 m   186s       7.80W   53.02W        8.21W  45.01W   3.7%   55.3W    2.7438     943.0  
+  8   37.0 m   186s       7.97W   53.27W        8.29W  45.14W   3.0%   57.7W    2.7513     942.0  
+  9   42.1 m   186s       7.84W   53.19W        8.27W  45.13W   3.1%   56.1W    2.7490     963.0  1 Leerlaufspitze(n) bis 14 W
+ 10   47.2 m   186s       8.06W   53.20W        8.00W  45.17W   3.2%   55.9W    2.7510     960.0  1 Leerlaufspitze(n) bis 14 W
+
+----------------------------------------------------------------------------------------------------
+3b. Zyklusweiser Treibervergleich (Zeile = Zyklus, Spalte = Treiber)
+----------------------------------------------------------------------------------------------------
+Werte in Klammern: Zyklus nicht verwertet (unvollständig bzw. ausgeschlossen). 'kleinster' = Treiber mit dem niedrigsten Wert in diesem Zyklus.
+
+Leerlauf vor [W]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1        9.15       10.65       12.14         ALT            1.50            2.99
+       2        9.03        8.15        9.03      MITTEL           -0.87            0.00
+       3        9.37        8.14        8.51      MITTEL           -1.23           -0.85
+       4        9.36        7.89        8.11      MITTEL           -1.47           -1.25
+       5        9.51        7.92        8.05      MITTEL           -1.59           -1.47
+       6        9.39        8.08        7.79         NEU           -1.30           -1.59
+       7        9.48        7.90        7.80         NEU           -1.58           -1.68
+       8        9.24        7.76        7.97      MITTEL           -1.48           -1.27
+       9        8.92        7.94        7.84         NEU           -0.97           -1.07
+      10        9.33        7.56        8.06      MITTEL           -1.77           -1.27
+  Mittel        9.28        8.20        8.53
+      SD        0.19        0.88        1.32
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 1×, MITTEL (31.0.101.2135) 6×, NEU (31.0.101.2141) 3×
+
+Last Ø [W]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1       53.49       52.91       52.94      MITTEL           -0.58           -0.55
+       2       54.29       52.90       53.54      MITTEL           -1.39           -0.75
+       3       54.18       53.37       53.38      MITTEL           -0.81           -0.79
+       4       54.18       53.15       53.13         NEU           -1.02           -1.05
+       5       54.37       53.14       53.18      MITTEL           -1.23           -1.19
+       6       54.35       53.22       53.29      MITTEL           -1.13           -1.07
+       7       53.83       53.05       53.02         NEU           -0.77           -0.81
+       8       54.18       53.11       53.27      MITTEL           -1.07           -0.91
+       9       54.09       53.14       53.19      MITTEL           -0.95           -0.89
+      10       54.16       52.96       53.20      MITTEL           -1.20           -0.96
+  Mittel       54.11       53.10       53.21
+      SD        0.27        0.14        0.17
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 0×, MITTEL (31.0.101.2135) 8×, NEU (31.0.101.2141) 2×
+
+Leerlauf nach [W]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1        9.68        7.74        8.56      MITTEL           -1.94           -1.12
+       2        9.12       10.82       13.07         ALT            1.70            3.95
+       3        9.77        8.39        8.64      MITTEL           -1.38           -1.13
+       4        9.54        8.34        8.46      MITTEL           -1.20           -1.08
+       5        9.39        8.66        8.13         NEU           -0.73           -1.25
+       6        9.34        7.94        8.39      MITTEL           -1.40           -0.96
+       7        8.92        7.90        8.21      MITTEL           -1.02           -0.70
+       8        9.25        8.35        8.29         NEU           -0.90           -0.96
+       9        9.26        7.92        8.27      MITTEL           -1.34           -0.99
+      10        9.09        8.47        8.00         NEU           -0.63           -1.10
+  Mittel        9.34        8.45        8.80
+      SD        0.27        0.88        1.51
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 1×, MITTEL (31.0.101.2135) 6×, NEU (31.0.101.2141) 3×
+
+Mehrverbrauch Delta [W]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1       44.07       43.71       42.60         NEU           -0.36           -1.48
+       2       45.22       43.42       42.49         NEU           -1.80           -2.73
+       3       44.61       45.10       44.81         ALT            0.50            0.20
+       4       44.72       45.03       44.84         ALT            0.31            0.12
+       5       44.92       44.85       45.09      MITTEL           -0.07            0.17
+       6       44.99       45.21       45.20         ALT            0.22            0.21
+       7       44.63       45.15       45.01         ALT            0.53            0.38
+       8       44.94       45.06       45.14         ALT            0.12            0.21
+       9       45.00       45.21       45.13         ALT            0.21            0.14
+      10       44.95       44.95       45.17      MITTEL           -0.00            0.22
+  Mittel       44.80       44.77       44.55
+      SD        0.32        0.65        1.07
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 6×, MITTEL (31.0.101.2135) 2×, NEU (31.0.101.2141) 2×
+
+Energie Lastfenster [Wh]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1      2.7612      2.7453      2.7487      MITTEL         -0.0159         -0.0125
+       2      2.7856      2.7628      2.7665      MITTEL         -0.0228         -0.0190
+       3      2.8140      2.7580      2.7560         NEU         -0.0560         -0.0580
+       4      2.7978      2.7476      2.7601      MITTEL         -0.0503         -0.0378
+       5      2.8076      2.7426      2.7429      MITTEL         -0.0650         -0.0647
+       6      2.8089      2.7501      2.7542      MITTEL         -0.0588         -0.0548
+       7      2.7848      2.7453      2.7438         NEU         -0.0395         -0.0410
+       8      2.7985      2.7263      2.7513      MITTEL         -0.0722         -0.0472
+       9      2.7935      2.7469      2.7490      MITTEL         -0.0466         -0.0445
+      10      2.7985      2.7523      2.7510         NEU         -0.0462         -0.0475
+  Mittel      2.7950      2.7477      2.7523
+      SD      0.0152      0.0098      0.0072
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 0×, MITTEL (31.0.101.2135) 7×, NEU (31.0.101.2141) 3×
+
+Effizienz [J je Score-Punkt]
+  Zyklus         ALT      MITTEL         NEU   kleinster      MITTEL−ALT         NEU−ALT
+       1       7.112       8.578       8.613         ALT           1.466           1.502
+       2       7.271       8.685       8.272         ALT           1.414           1.001
+       3       7.137       8.754       8.622         ALT           1.617           1.486
+       4       7.171       8.574       8.804         ALT           1.403           1.633
+       5       7.211       8.647       8.635         ALT           1.435           1.423
+       6       7.202       8.757       8.860         ALT           1.555           1.657
+       7       7.325       8.859       8.877         ALT           1.534           1.552
+       8       7.217       8.562       8.902         ALT           1.344           1.685
+       9       7.278       8.731       8.714         ALT           1.453           1.436
+      10       7.195       8.734       8.747         ALT           1.538           1.552
+  Mittel       7.212       8.688       8.705
+      SD       0.065       0.097       0.186
+  Zyklen mit kleinstem Wert: ALT (31.0.101.2115) 10×, MITTEL (31.0.101.2135) 0×, NEU (31.0.101.2141) 0×
+
+----------------------------------------------------------------------------------------------------
+4. Zusammenfassung je Treiber über alle verwertbaren Zyklen
+----------------------------------------------------------------------------------------------------
+Ø ± Standardabweichung, [95-%-Konfidenzintervall des Mittelwerts], CV zw. Zyklen = Wiederholbarkeit von Zyklus zu Zyklus.
+
+Leerlauf Ø [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       9.31      0.17           [9.19 ; 9.43]       9.30      9.07      9.57          1.8 %
+  MITTEL (31.0.101.2135)    10       8.33      0.55           [7.93 ; 8.72]       8.08      7.90      9.49          6.7 %
+  NEU (31.0.101.2141)       10       8.67      1.10           [7.88 ; 9.45]       8.11      8.01     11.05         12.7 %
+
+Leerlauf Median [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       9.31      0.15           [9.20 ; 9.41]       9.28      9.08      9.52          1.6 %
+  MITTEL (31.0.101.2135)    10       7.99      0.17           [7.87 ; 8.11]       8.02      7.73      8.26          2.1 %
+  NEU (31.0.101.2141)       10       8.09      0.23           [7.93 ; 8.25]       8.02      7.88      8.58          2.8 %
+
+Last Ø [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10      54.11      0.27         [53.92 ; 54.30]      54.18     53.49     54.37          0.5 %
+  MITTEL (31.0.101.2135)    10      53.10      0.14         [52.99 ; 53.20]      53.12     52.90     53.37          0.3 %
+  NEU (31.0.101.2141)       10      53.21      0.17         [53.09 ; 53.34]      53.20     52.94     53.54          0.3 %
+
+Mehrverbrauch Delta [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10      44.80      0.32         [44.58 ; 45.03]      44.93     44.07     45.22          0.7 %
+  MITTEL (31.0.101.2135)    10      44.77      0.65         [44.31 ; 45.23]      45.05     43.42     45.21          1.4 %
+  NEU (31.0.101.2141)       10      44.55      1.07         [43.79 ; 45.31]      45.05     42.49     45.20          2.4 %
+
+CV innerhalb Last [%]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       3.20      0.35           [2.95 ; 3.45]       3.26      2.37      3.65         10.9 %
+  MITTEL (31.0.101.2135)    10       3.48      0.61           [3.04 ; 3.92]       3.48      2.32      4.33         17.6 %
+  NEU (31.0.101.2141)       10       3.51      0.59           [3.09 ; 3.94]       3.37      2.67      4.70         16.9 %
+
+Schwankung in der Last, SD [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10      1.732     0.189         [1.596 ; 1.867]      1.767     1.279     1.983         10.9 %
+  MITTEL (31.0.101.2135)    10      1.848     0.325         [1.615 ; 2.081]      1.848     1.234     2.291         17.6 %
+  NEU (31.0.101.2141)       10      1.868     0.317         [1.641 ; 2.095]      1.798     1.418     2.519         17.0 %
+
+Schwankung im Leerlauf, SD [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10      1.427     0.251         [1.248 ; 1.607]      1.514     0.897     1.692         17.6 %
+  MITTEL (31.0.101.2135)    10      2.128     1.615         [0.973 ; 3.284]      1.433     1.214     5.467         75.9 %
+  NEU (31.0.101.2141)       10      2.638     2.674         [0.725 ; 4.550]      1.395     1.229     8.160        101.4 %
+
+Lastspitze [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       57.3       1.7           [56.0 ; 58.5]       56.9      56.0      62.0          3.1 %
+  MITTEL (31.0.101.2135)    10       58.0       3.1           [55.7 ; 60.2]       56.6      55.2      63.7          5.3 %
+  NEU (31.0.101.2141)       10       59.3       3.2           [57.0 ; 61.6]       58.6      55.3      63.9          5.4 %
+
+Einschwingspitze [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       54.0       0.5           [53.6 ; 54.4]       53.9      53.3      54.8          1.0 %
+  MITTEL (31.0.101.2135)    10       52.3       0.7           [51.9 ; 52.8]       52.2      51.5      53.5          1.3 %
+  NEU (31.0.101.2141)       10       52.1       0.4           [51.8 ; 52.4]       51.9      51.7      52.8          0.8 %
+
+Energie Lastfenster [Wh]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10     2.7950    0.0152       [2.7841 ; 2.8059]     2.7982    2.7612    2.8140          0.5 %
+  MITTEL (31.0.101.2135)    10     2.7477    0.0098       [2.7407 ; 2.7547]     2.7472    2.7263    2.7628          0.4 %
+  NEU (31.0.101.2141)       10     2.7523    0.0072       [2.7472 ; 2.7575]     2.7511    2.7429    2.7665          0.3 %
+
+Leerlauf nach - vor [W]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10       0.06      0.33          [-0.17 ; 0.29]       0.05     -0.56      0.54            n/a
+  MITTEL (31.0.101.2135)    10       0.25      1.37          [-0.73 ; 1.24]       0.35     -2.91      2.67            n/a
+  NEU (31.0.101.2141)       10       0.27      1.81          [-1.02 ; 1.56]       0.33     -3.58      4.04            n/a
+
+FurMark-Score
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10    1153.90      9.48     [1147.12 ; 1160.68]    1156.00   1133.00   1167.00          0.8 %
+  MITTEL (31.0.101.2135)    10     958.70     11.14       [950.73 ; 966.67]     960.00    938.00    976.00          1.2 %
+  NEU (31.0.101.2141)       10     951.80     13.69       [942.01 ; 961.59]     952.50    923.00    969.00          1.4 %
+
+Effizienz [J je Score-Punkt]
+  Treiber                    n     Mittel      ± SD                 95-%-KI     Median       Min       Max  CV zw. Zyklen
+  ALT (31.0.101.2115)       10      7.212     0.065         [7.165 ; 7.259]      7.207     7.112     7.325          0.9 %
+  MITTEL (31.0.101.2135)    10      8.688     0.097         [8.618 ; 8.757]      8.708     8.562     8.859          1.1 %
+  NEU (31.0.101.2141)       10      8.705     0.186         [8.572 ; 8.838]      8.731     8.272     8.902          2.1 %
+
+----------------------------------------------------------------------------------------------------
+4b. Stabilität der Treiber
+----------------------------------------------------------------------------------------------------
+Zwei Ebenen: (1) wie ruhig ist die Leistung INNERHALB einer Lastphase, (2) wie gut WIEDERHOLT sich das Ergebnis von Zyklus zu Zyklus.
+SD = Standardabweichung [W]; Varianz = SD² [W²]; CV = SD / Mittelwert [%] (vergleichbar zwischen Treibern); Spannweite = größter minus kleinster Zykluswert [W].
+
+(1) Schwankung innerhalb der Phasen (Mittel über die Zyklen):
+  Treiber                   SD in der Last  CV in der Last  SD im Leerlauf
+  ALT (31.0.101.2115)              1.732 W          3.20 %         1.427 W
+  MITTEL (31.0.101.2135)           1.848 W          3.48 %         2.128 W
+  NEU (31.0.101.2141)              1.868 W          3.51 %         2.638 W
+
+(2) Wiederholbarkeit zwischen den Zyklen – Last Ø:
+  Treiber                    n        SD     Varianz        CV  Spannweite       Min       Max
+  ALT (31.0.101.2115)       10     0.268      0.0716    0.49 %       0.882     53.49     54.37
+  MITTEL (31.0.101.2135)    10     0.145      0.0210    0.27 %       0.462     52.90     53.37
+  NEU (31.0.101.2141)       10     0.172      0.0297    0.32 %       0.597     52.94     53.54
+
+(2) Wiederholbarkeit zwischen den Zyklen – Mehrverbrauch Delta:
+  Treiber                    n        SD     Varianz        CV  Spannweite       Min       Max
+  ALT (31.0.101.2115)       10     0.317      0.1008    0.71 %       1.146     44.07     45.22
+  MITTEL (31.0.101.2135)    10     0.649      0.4207    1.45 %       1.796     43.42     45.21
+  NEU (31.0.101.2141)       10     1.065      1.1348    2.39 %       2.709     42.49     45.20
+
+Tests: Unterscheidet sich die Stabilität der Treiber signifikant? (paarweise Holm-korrigiert)
+  Schwankung innerhalb der Last (SD je Zyklus)  [Kruskal-Wallis / Welch]  global p = 0.671
+      MITTEL (31.0.101.2135) vs. ALT (31.0.101.2115): Differenz der SD 0.117 W, p = 0.783
+      NEU (31.0.101.2141) vs. ALT (31.0.101.2115): Differenz der SD 0.137 W, p = 0.783
+      NEU (31.0.101.2141) vs. MITTEL (31.0.101.2135): Differenz der SD 0.020 W, p = 0.890
+  Wiederholbarkeit Last Ø zwischen den Zyklen  [Brown-Forsythe (Levene, Median)]  global p = 0.708
+      MITTEL (31.0.101.2135) vs. ALT (31.0.101.2115): Verhältnis der SD 0.541×, p = 1.000
+      NEU (31.0.101.2141) vs. ALT (31.0.101.2115): Verhältnis der SD 0.643×, p = 1.000
+      NEU (31.0.101.2141) vs. MITTEL (31.0.101.2135): Verhältnis der SD 1.189×, p = 1.000
+  Wiederholbarkeit Mehrverbrauch zwischen den Zyklen  [Brown-Forsythe (Levene, Median)]  global p = 0.465
+      MITTEL (31.0.101.2135) vs. ALT (31.0.101.2115): Verhältnis der SD 2.043×, p = 0.863
+      NEU (31.0.101.2141) vs. ALT (31.0.101.2115): Verhältnis der SD 3.356×, p = 0.768
+      NEU (31.0.101.2141) vs. MITTEL (31.0.101.2135): Verhältnis der SD 1.642×, p = 0.863
+
+Ruhigste Leistungsaufnahme innerhalb der Last: ALT (31.0.101.2115) (CV 3.20 %).
+Beste Wiederholbarkeit der Last zwischen den Zyklen: MITTEL (31.0.101.2135) (CV 0.27 %).
+
+----------------------------------------------------------------------------------------------------
+5. Stabilität über die Zyklen: Trend, Aufwärmeffekt, Ausreißer
+----------------------------------------------------------------------------------------------------
+Steigung = lineare Änderung je Zyklus; p < 0,05 deutet auf eine systematische Drift (z. B. Erwärmung) statt Zufallsstreuung.
+  Treiber                 Größe         Steigung/Zyklus  Summe über Lauf     R²       p   Zyklus 1 vs. Rest
+  ALT (31.0.101.2115)     Last Ø                0.022 W           0.19 W   0.06   0.495             -0.69 W
+  ALT (31.0.101.2115)     Delta                 0.047 W           0.42 W   0.20   0.194             -0.81 W
+  ALT (31.0.101.2115)     Leerlauf Ø           -0.025 W          -0.23 W   0.21   0.185              0.12 W
+  MITTEL (31.0.101.2135)  Last Ø                0.004 W           0.03 W   0.01   0.828             -0.21 W
+  MITTEL (31.0.101.2135)  Delta                 0.146 W           1.32 W   0.47   0.029             -1.18 W
+  MITTEL (31.0.101.2135)  Leerlauf Ø           -0.143 W          -1.28 W   0.61   0.008              0.97 W
+  NEU (31.0.101.2141)     Last Ø               -0.006 W          -0.05 W   0.01   0.787             -0.30 W
+  NEU (31.0.101.2141)     Delta                 0.267 W           2.40 W   0.57   0.011             -2.17 W
+  NEU (31.0.101.2141)     Leerlauf Ø           -0.272 W          -2.45 W   0.56   0.012              1.87 W
+
+Ausreißerzyklen (robuster z-Wert > 3,5 und mind. 3 % Abweichung vom Median bei Delta oder Last Ø):
+  MITTEL (31.0.101.2135) Zyklus 2: Last Ø 52.90 W, Delta 43.42 W – bleibt in der Statistik
+  NEU (31.0.101.2141) Zyklus 1: Last Ø 52.94 W, Delta 42.60 W – bleibt in der Statistik
+  NEU (31.0.101.2141) Zyklus 2: Last Ø 53.54 W, Delta 42.49 W – bleibt in der Statistik
+
+----------------------------------------------------------------------------------------------------
+6. Treibervergleich: statistische Tests
+----------------------------------------------------------------------------------------------------
+Globaler Test: Unterscheidet sich mindestens ein Treiber? Paarweise: Welch-t-Test (ungleiche Varianzen) und Mann-Whitney-U, p-Werte Holm-korrigiert.
+Hedges g: < 0,2 vernachlässigbar, < 0,5 klein, < 0,8 mittel, sonst groß.
+
+Mehrverbrauch Delta:  Kruskal-Wallis p = 0.488   Alexander-Govern (Welch-Typ) p = 0.780
+  Vergleich                       Differenz   relativ     95-%-KI der Differenz  p Welch   p MWU  Hedges g  Effekt
+  MITTEL (31.0.101.2135) − ALT (31.0.101.2115)     -0.034    -0.1 %          [-0.528 ; 0.459]    1.000   0.922     -0.06  vernachlässigbar
+  NEU (31.0.101.2141) − ALT (31.0.101.2115)     -0.257    -0.6 %          [-1.034 ; 0.520]    1.000   0.922     -0.31  klein
+  NEU (31.0.101.2141) − MITTEL (31.0.101.2135)     -0.223    -0.5 %          [-1.064 ; 0.619]    1.000   0.922     -0.24  klein
+
+Last Ø:  Kruskal-Wallis p = <0.001   Alexander-Govern (Welch-Typ) p = <0.001
+  Vergleich                       Differenz   relativ     95-%-KI der Differenz  p Welch   p MWU  Hedges g  Effekt
+  MITTEL (31.0.101.2135) − ALT (31.0.101.2115)     -1.015    -1.9 %         [-1.222 ; -0.808]   <0.001  <0.001     -4.52  groß *
+  NEU (31.0.101.2141) − ALT (31.0.101.2115)     -0.897    -1.7 %         [-1.111 ; -0.683]   <0.001  <0.001     -3.82  groß *
+  NEU (31.0.101.2141) − MITTEL (31.0.101.2135)      0.118     0.2 %          [-0.032 ; 0.268]    0.115   0.104      0.71  mittel
+
+Leerlauf Ø:  Kruskal-Wallis p = 0.007   Alexander-Govern (Welch-Typ) p = <0.001
+  Vergleich                       Differenz   relativ     95-%-KI der Differenz  p Welch   p MWU  Hedges g  Effekt
+  MITTEL (31.0.101.2135) − ALT (31.0.101.2115)     -0.980   -10.5 %         [-1.385 ; -0.576]   <0.001   0.011     -2.29  groß *
+  NEU (31.0.101.2141) − ALT (31.0.101.2115)     -0.640    -6.9 %          [-1.429 ; 0.149]    0.200   0.051     -0.78  mittel
+  NEU (31.0.101.2141) − MITTEL (31.0.101.2135)      0.340     4.1 %          [-0.497 ; 1.178]    0.397   0.385      0.38  klein
+
+Effizienz (J je Score-Punkt):  Kruskal-Wallis p = <0.001   Alexander-Govern (Welch-Typ) p = <0.001
+  Vergleich                       Differenz   relativ     95-%-KI der Differenz  p Welch   p MWU  Hedges g  Effekt
+  MITTEL (31.0.101.2135) − ALT (31.0.101.2115)      1.476    20.5 %           [1.397 ; 1.555]   <0.001  <0.001     17.07  groß *
+  NEU (31.0.101.2141) − ALT (31.0.101.2115)      1.493    20.7 %           [1.356 ; 1.630]   <0.001  <0.001     10.25  groß *
+  NEU (31.0.101.2141) − MITTEL (31.0.101.2135)      0.017     0.2 %          [-0.126 ; 0.160]    0.805   0.473      0.11  vernachlässigbar
+
+* = nach Holm-Korrektur signifikant auf dem 5-%-Niveau (Welch-Test).
+
+----------------------------------------------------------------------------------------------------
+7. Einordnung
+----------------------------------------------------------------------------------------------------
+Rangfolge nach Mehrverbrauch unter Last (kleiner = sparsamer):
+  1. NEU (31.0.101.2141)     44.55 W  (95-%-KI 43.79 bis 45.31 W, n = 10)
+  2. MITTEL (31.0.101.2135)  44.77 W  (95-%-KI 44.31 bis 45.23 W, n = 10)
+  3. ALT (31.0.101.2115)     44.80 W  (95-%-KI 44.58 bis 45.03 W, n = 10)
+
+Der Abstand zwischen sparsamstem und verbrauchsstärkstem Treiber beträgt 0.26 W und ist statistisch NICHT abgesichert (p = 1.000, Effekt klein).
+Gleichmäßigste Leistungsaufnahme innerhalb der Lastphase: ALT (31.0.101.2115) (mittlerer CV 3.20 %).
+Hinweis ALT (31.0.101.2115): Der erste Zyklus weicht um -0.69 W vom Rest ab (> 2 Standardabweichungen) – typischer Einlaufeffekt. Prüfen, ob die Aussage ohne Zyklus 1 gleich bleibt.
+Achtung MITTEL (31.0.101.2135): Mehrverbrauch ändert sich systematisch über die Zyklen (+0.146 W je Zyklus, +1.32 W über den Lauf) – Aufwärm- oder Temperatureffekt; Pausen verlängern oder Einlaufzyklus vorschalten.
+Achtung NEU (31.0.101.2141): Mehrverbrauch ändert sich systematisch über die Zyklen (+0.267 W je Zyklus, +2.40 W über den Lauf) – Aufwärm- oder Temperatureffekt; Pausen verlängern oder Einlaufzyklus vorschalten.
+
+Methodische Hinweise:
+  * Die Zyklen eines Treibers stammen aus EINER Sitzung. Sie erfassen die Streuung von Zyklus zu Zyklus, nicht die zwischen Neuinstallationen oder Messtagen. Die Tests sind deshalb eher zu optimistisch; für belastbare Aussagen die Messreihe an einem zweiten Tag bzw. nach Neuinstallation wiederholen.
+  * Leerlaufspitzen stammen meist aus Hintergrundaktivität des Betriebssystems. Wenn Mittelwert- und Median-Delta deutlich auseinanderliegen, ist das Median-Delta aussagekräftiger.
+
+----------------------------------------------------------------------------------------------------
+8. Kurztabellen (für die schriftliche Arbeit)
+----------------------------------------------------------------------------------------------------
+Über alle Messpunkte der verwerteten Zyklen im jeweiligen Auswertefenster; Energie = Mittel je Zyklus für dieses Fenster.
+  Phase          Treiber                   Mittel  Median    Std   CV %     Min     Max  Wh/Zyklus
+  Leerlauf vor   ALT (31.0.101.2115)         9.28    9.26   1.49   16.1    6.64   19.88      0.128
+                 MITTEL (31.0.101.2135)      8.20    7.86   2.52   30.7    4.82   35.18      0.113
+                 NEU (31.0.101.2141)         8.53    8.01   3.63   42.6    5.36   43.33      0.117
+  Last (Plateau) ALT (31.0.101.2115)        54.11   54.28   1.76    3.2   32.64   62.01      2.795
+                 MITTEL (31.0.101.2135)     53.10   53.35   1.88    3.5   31.30   63.65      2.748
+                 NEU (31.0.101.2141)        53.21   53.36   1.90    3.6   31.95   63.86      2.752
+  Leerlauf nach  ALT (31.0.101.2115)         9.34    9.33   1.41   15.1    6.41   16.19      0.128
+                 MITTEL (31.0.101.2135)      8.45    8.11   2.80   33.1    5.60   40.76      0.116
+                 NEU (31.0.101.2141)         8.80    8.19   3.94   44.7    5.69   38.49      0.121
+
+  Treiber                   Leerlauf     Last  Mehrverbrauch  Wh Last/Zyklus
+  ALT (31.0.101.2115)           9.31    54.11          44.80           2.795
+  MITTEL (31.0.101.2135)        8.33    53.10          44.77           2.748
+  NEU (31.0.101.2141)           8.67    53.21          44.55           2.752
+
+Plausibilitätsprüfung bestanden: alle Werte liegen im gemessenen Bereich, Median zwischen Min und Max, Energie passt zu Mittelwert × Fensterdauer.
+
+
+----------------------------------------------------------------------------------------------------
+9. Ausgabedateien
+----------------------------------------------------------------------------------------------------
+  v5out/grafik_furmark_01_gesamtverlauf.png
+  v5out/grafik_furmark_03_mittleres_profil.png
+  v5out/grafik_furmark_06_mittelwerte_ki.png
+  v5out/grafik_furmark_07_zyklusvergleich.png
+  v5out/grafik_furmark_auswertung.xlsx
+  v5out/grafik_furmark_kurzauswertung.xlsx
+  v5out/grafik_furmark_zyklusbilder
+  v5out/analyse_grafik_furmark.log
+  v5out/grafik_furmark_zyklusbilder/zyklus_NN.png  (ein Bild je Zyklus, mit und ohne Tabelle)

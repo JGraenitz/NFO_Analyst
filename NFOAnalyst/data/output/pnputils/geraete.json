@@ -1,0 +1,2230 @@
+[
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\OEM_DAL_component&4&3123f2b&0",
+    "gerätebeschreibung": "Intel(R) Dynamic Application Loader Host Interface",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "oem69.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0C\\3&27ef53f1&0&000b",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{C644342F-4042-4E92-948B-6865935D5447}",
+    "gerätebeschreibung": "Microsoft Print to PDF",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_14ED&PID_1026\\MV6#2-389a542f74a2e8559519be9d39756057",
+    "gerätebeschreibung": "USB-Verbundgerät",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standard-USB-Hostcontroller)",
+    "status": "Gestartet",
+    "treibername": "usb.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A3A&SUBSYS_50011458&REV_11\\3&11583659&1&E2",
+    "gerätebeschreibung": "Intel(R) PCI Express Root Port #3 - 7A3A",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\0",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\1",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\2",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\5",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_01&Col04\\7&221363f4&0&0003",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\{c3a63edd-2d27-4b66-b155-5e94b43d926a}#RealtekAPO&5&88db0f1&0",
+    "gerätebeschreibung": "Realtek Audio Effects Component",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Realtek",
+    "status": "Gestartet",
+    "treibername": "oem74.inf"
+  },
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\OEM_WMI_component&4&3123f2b&0",
+    "gerätebeschreibung": "Intel(R) Management Engine WMI Provider",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "oem71.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A62&SUBSYS_B0051458&REV_11\\3&11583659&1&B8",
+    "gerätebeschreibung": "Standardmäßiger SATA AHCI- Controller",
+    "klassenname": "HDC",
+    "klassen_guid": "{4d36e96a-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Standardmäßiger SATA AHCI- Controller",
+    "status": "Gestartet",
+    "treibername": "mshdc.inf"
+  },
+  {
+    "instanz_id": "ACPI\\MSFT8000\\1",
+    "gerätebeschreibung": "Ressourcenhub-Proxygerät",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "rhproxy.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0B\\0",
+    "gerätebeschreibung": "ACPI-Lüfter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0B\\1",
+    "gerätebeschreibung": "ACPI-Lüfter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0B\\2",
+    "gerätebeschreibung": "ACPI-Lüfter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0B\\3",
+    "gerätebeschreibung": "ACPI-Lüfter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0B\\4",
+    "gerätebeschreibung": "ACPI-Lüfter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_A703&SUBSYS_50001458&REV_01\\3&11583659&1&00",
+    "gerätebeschreibung": "PCI Standard-Host-CPU-Brücke",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_01&Col01\\7&39ff06a5&0&0000",
+    "gerätebeschreibung": "HID-Tastatur",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardtastaturen)",
+    "status": "Gestartet",
+    "treibername": "keyboard.inf"
+  },
+  {
+    "instanz_id": "SWD\\DAFWSDProvider\\urn:uuid:cfe92100-67c4-11d4-a45f-381a52515f3e/uri:urn:uuid:cfe92100-67c4-11d4-a45f-381a52515f3e/01",
+    "gerätebeschreibung": "EPSON515F3E (ET-3750 Series)",
+    "klassenname": "Image",
+    "klassen_guid": "{6bdd1fc6-810f-11d0-bec7-08002be2092f}",
+    "herstellername": "EPSON",
+    "status": "Gestartet",
+    "treibername": "wsdscdrv.inf"
+  },
+  {
+    "instanz_id": "SWD\\DAFWSDProvider\\urn:uuid:cfe92100-67c4-11d4-a45f-381a52515f3e/uri:urn:uuid:cfe92100-67c4-11d4-a45f-381a52515f3e/02",
+    "gerätebeschreibung": "EPSON515F3E (ET-3750 Series)",
+    "klassenname": "WSDPrintDevice",
+    "klassen_guid": "{c30ecea0-11ef-4ef9-b02e-6af81e6e65c0}",
+    "herstellername": "EPSON",
+    "status": "Gestartet",
+    "treibername": "wsdprint.inf"
+  },
+  {
+    "instanz_id": "ACPI\\ACPI000C\\2&daba3ff&1",
+    "gerätebeschreibung": "ACPI-Prozessoraggregator",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "acpipagr.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0100\\4&2192d5ea&0",
+    "gerätebeschreibung": "Systemzeitgeber",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110e-0000-1000-8000-00805f9b34fb}_VID&0001009e_PID&4009\\7&36c75ca0&0&08DF1FE08195_C00000000",
+    "gerätebeschreibung": "Bose Mini II SoundLink AVRCP-Transport",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_avrcptransport.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\PrintQueues",
+    "gerätebeschreibung": "Stammdruckwarteschlange",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_10DE&DEV_22E9&SUBSYS_000010DE&REV_A1\\4&17f9e5fe&0&0108",
+    "gerätebeschreibung": "High Definition Audio-Controller",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hdaudbus.inf"
+  },
+  {
+    "instanz_id": "ROOT\\volmgr\\0000",
+    "gerätebeschreibung": "Volume-Manager",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volmgr.inf"
+  },
+  {
+    "instanz_id": "{5d624f94-8850-40c3-a3fa-a4fd2080baf3}\\vwifimp_wfd\\4&10fcde3b&0&13",
+    "gerätebeschreibung": "Microsoft Wi-Fi Direct Virtual Adapter #3",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netvwifimp.inf"
+  },
+  {
+    "instanz_id": "{5d624f94-8850-40c3-a3fa-a4fd2080baf3}\\vwifimp_wfd\\4&10fcde3b&0&14",
+    "gerätebeschreibung": "Microsoft Wi-Fi Direct Virtual Adapter #4",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netvwifimp.inf"
+  },
+  {
+    "instanz_id": "BTH\\MS_BTHBRB\\6&22101a12&0&1",
+    "gerätebeschreibung": "Microsoft Bluetooth-Auflistung",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bth.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000111e-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "AirPods Pro JG - Find My Hands-Free AG",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_hfp_ag.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_C0A9&DEV_540A&SUBSYS_5021C0A9&REV_01\\4&2e3c9220&0&00D0",
+    "gerätebeschreibung": "Micron NVMe Storage Controller",
+    "klassenname": "SCSIAdapter",
+    "klassen_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Micron Technology, Inc.",
+    "status": "Gestartet",
+    "treibername": "oem64.inf"
+  },
+  {
+    "instanz_id": "UEFI\\RES_{00000000-0000-0000-0000-000000000000}\\0",
+    "gerätebeschreibung": "Systemfirmware",
+    "klassenname": "Firmware",
+    "klassen_guid": "{f2e7dd72-6468-4e36-b6f1-6488f42c1b52}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_firmware.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_PPPOEMINIPORT",
+    "gerätebeschreibung": "WAN Miniport (PPPOE)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  },
+  {
+    "instanz_id": "BTHHFENUM\\BthHFPAudio\\8&1b02ec6b&1&97",
+    "gerätebeschreibung": "AirPods Pro JG - Find My Hands-Free AG Audio",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_hfp.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{4afa606e-9cff-44be-8a06-8ff539fe9902}",
+    "gerätebeschreibung": "Kopfhörer (2- Shure MV6)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "ROOT\\VMBus\\0000",
+    "gerätebeschreibung": "Microsoft Hyper-V - Busanbieter für virtuelle Computer",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wvmbusr.inf"
+  },
+  {
+    "instanz_id": "SWD\\DAFWSDProvider\\urn:uuid:cfe92100-67c4-11d4-a45f-381a52515f3e",
+    "gerätebeschreibung": "EPSON515F3E (ET-3750 Series)",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "EPSON",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "ROOT\\BasicDisplay\\0000",
+    "gerätebeschreibung": "Microsoft Basic Display Driver",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardgrafikkartentypen)",
+    "status": "Gestartet",
+    "treibername": "basicdisplay.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_00\\7&7f08&0&0000",
+    "gerätebeschreibung": "Razer Naga Trinity",
+    "klassenname": "Mouse",
+    "klassen_guid": "{4d36e96f-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem37.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A70&SUBSYS_00948086&REV_11\\3&11583659&1&A3",
+    "gerätebeschreibung": "Intel(R) Wi-Fi 6E AX211 160MHz",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem65.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0E\\2&daba3ff&1",
+    "gerätebeschreibung": "ACPI-Energiezustandknopf",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_A74D&SUBSYS_00000000&REV_01\\3&11583659&1&30",
+    "gerätebeschreibung": "Intel(R) PCIe RC 060 (x4) G4 - A74D",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem77.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C14\\GSADEV0",
+    "gerätebeschreibung": "Microsoft Windows-Verwaltungsschnittstelle für ACPI",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wmiacpi.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{b0c5931a-1857-4148-bf3b-6ecf985b5779}",
+    "gerätebeschreibung": "Acer XB240H (NVIDIA High Definition Audio)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A27&SUBSYS_00000000&REV_11\\3&11583659&1&A2",
+    "gerätebeschreibung": "Intel(R) Shared SRAM - 7A27",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Beendet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110b-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "AirPods Pro JG - Find My Stereo",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_a2dp_src.inf"
+  },
+  {
+    "instanz_id": "SCSI\\Disk&Ven_NVMe&Prod_Samsung_SSD_980\\5&947c7bd&0&000000",
+    "gerätebeschreibung": "Samsung SSD 980 1TB",
+    "klassenname": "DiskDrive",
+    "klassen_guid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardlaufwerke)",
+    "status": "Gestartet",
+    "treibername": "disk.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f0-92d4-11ee-b029-806e6f6e6963}#0000000000100000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col05\\3&27ef53f1&0&0004",
+    "gerätebeschreibung": "HID-konformer Systemcontroller",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_10DE&DEV_2C02&SUBSYS_53101462&REV_A1\\98A021D2942DB04800",
+    "gerätebeschreibung": "NVIDIA GeForce RTX 5080",
+    "klassenname": "Display",
+    "klassen_guid": "{4d36e968-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "NVIDIA",
+    "status": "Gestartet",
+    "treibername": "oem113.inf"
+  },
+  {
+    "instanz_id": "ROOT\\NET\\0000",
+    "gerätebeschreibung": "VirtualBox Host-Only Ethernet Adapter",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Oracle Corporation",
+    "status": "Gestartet",
+    "treibername": "oem53.inf"
+  },
+  {
+    "instanz_id": "ROOT\\NET\\0001",
+    "gerätebeschreibung": "OpenVPN Data Channel Offload",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "OpenVPN, Inc",
+    "status": "Gestartet",
+    "treibername": "oem108.inf"
+  },
+  {
+    "instanz_id": "ROOT\\NET\\0002",
+    "gerätebeschreibung": "TAP-NordVPN Windows Adapter V9",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "TAP-NordVPN Windows Provider V9",
+    "status": "Gestartet",
+    "treibername": "oem109.inf"
+  },
+  {
+    "instanz_id": "ROOT\\NET\\0005",
+    "gerätebeschreibung": "Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Cisco Systems",
+    "status": "Getrennt",
+    "treibername": "oem55.inf"
+  },
+  {
+    "instanz_id": "BTH\\MS_RFCOMM\\6&22101a12&0&0",
+    "gerätebeschreibung": "Bluetooth Device (RFCOMM Protocol TDI)",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "tdibth.inf"
+  },
+  {
+    "instanz_id": "ACPI\\ThermalZone\\TZ00",
+    "gerätebeschreibung": "ACPI-Thermozone",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI\\ThermalZone\\TZ10",
+    "gerätebeschreibung": "ACPI-Thermozone",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\WSD-af7ca41c-f3b4-4f6b-a71c-0b0959943002",
+    "gerätebeschreibung": "Epson ESC/P-R V4 Class Driver",
+    "klassenname": "Printer",
+    "klassen_guid": "{4d36e979-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "EPSON",
+    "status": "Gestartet",
+    "treibername": "oem31.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A4D&SUBSYS_00000000&REV_11\\3&11583659&1&A9",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A4D",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C14\\DSarDev",
+    "gerätebeschreibung": "Microsoft Windows-Verwaltungsschnittstelle für ACPI",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wmiacpi.inf"
+  },
+  {
+    "instanz_id": "BTH\\MS_BTHPAN\\6&22101a12&0&2",
+    "gerätebeschreibung": "Bluetooth Device (Personal Area Network)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bthpan.inf"
+  },
+  {
+    "instanz_id": "UEFI\\RES_{86a885ee-d71e-2ed6-0fc1-9d6ccc9677eb}\\0",
+    "gerätebeschreibung": "Gerätefirmware",
+    "klassenname": "Firmware",
+    "klassen_guid": "{f2e7dd72-6468-4e36-b6f1-6488f42c1b52}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_firmware.inf"
+  },
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\{c3a63edd-2d27-4b66-b155-5e94b43d926a}#RealtekSRV&5&88db0f1&0",
+    "gerätebeschreibung": "Realtek Audio Universal Service",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Realtek",
+    "status": "Gestartet",
+    "treibername": "oem75.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\{5e259276-bc7e-40e3-b93b-8f89b5f3abc0}",
+    "gerätebeschreibung": "Microsoft RRAS Root Enumerator",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0D\\3&27ef53f1&0&000c",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A38&SUBSYS_00000000&REV_11\\3&11583659&1&E0",
+    "gerätebeschreibung": "Intel(R) PCI Express Root Port #1 - 7A38",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_048D&PID_5702&Col01\\6&5a37c1&0&0000",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_1532&PID_0067&MI_02\\6&72bf1e6&0&0002",
+    "gerätebeschreibung": "Razer Naga Trinity",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem56.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_PPTPMINIPORT",
+    "gerätebeschreibung": "WAN Miniport (PPTP)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_01&Col05\\7&221363f4&0&0004",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_1532&PID_0067&MI_01\\6&72bf1e6&0&0001",
+    "gerätebeschreibung": "Razer Naga Trinity",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem33.inf"
+  },
+  {
+    "instanz_id": "ROOT\\VID\\0000",
+    "gerätebeschreibung": "Microsoft Hyper-V-Virtualisierungsinfrastrukturtreiber",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wvid.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0103\\0",
+    "gerätebeschreibung": "Hochpräzisionsereigniszeitgeber",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{732B03EF-A5CF-4FF2-8E98-B2AB01B1E96E}",
+    "gerätebeschreibung": "Fax",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\ISCLK",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_AGILEVPNMINIPORT",
+    "gerätebeschreibung": "WAN Miniport (IKEv2)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netavpna.inf"
+  },
+  {
+    "instanz_id": "ROOT\\CompositeBus\\0000",
+    "gerätebeschreibung": "Busenumerator für Verbundgeräte",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "compositebus.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_01&Col02\\7&39ff06a5&0&0001",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{4BD7672D-15E8-4AAD-ACEC-A265BC2B9F60}",
+    "gerätebeschreibung": "OneNote for Windows 10",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_1532&PID_0067&MI_00\\6&72bf1e6&0&0000",
+    "gerätebeschreibung": "Razer Naga Trinity",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem34.inf"
+  },
+  {
+    "instanz_id": "ROOT\\vdrvroot\\0000",
+    "gerätebeschreibung": "Microsoft virtueller Datenträgerenumerator",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "vdrvroot.inf"
+  },
+  {
+    "instanz_id": "USB\\ROOT_HUB30\\4&2c921b1&0&0",
+    "gerätebeschreibung": "USB-Root-Hub (USB 3.0)",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standardmäßige USB-HUBs)",
+    "status": "Gestartet",
+    "treibername": "usbhub3.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_14ED&PID_1026&MI_00\\7&161879cc&0&0000",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "ROOT\\spaceport\\0000",
+    "gerätebeschreibung": "Microsoft-Controller für Speicherplätze",
+    "klassenname": "SCSIAdapter",
+    "klassen_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "spaceport.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A24&SUBSYS_00000000&REV_11\\3&11583659&1&FD",
+    "gerätebeschreibung": "Intel(R) SPI (flash) Controller - 7A24",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Beendet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "DISPLAY\\GSM776E\\5&2de1e512&0&UID4352",
+    "gerätebeschreibung": "PnP-Monitor (Standard)",
+    "klassenname": "Monitor",
+    "klassen_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardmonitortypen)",
+    "status": "Gestartet",
+    "treibername": "monitor.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000111e-0000-1000-8000-00805f9b34fb}_VID&0001009e_PID&4009\\7&36c75ca0&0&08DF1FE08195_C00000000",
+    "gerätebeschreibung": "Bose Mini II SoundLink Hands-Free AG",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_hfp_ag.inf"
+  },
+  {
+    "instanz_id": "ROOT\\KDNIC\\0000",
+    "gerätebeschreibung": "Microsoft Kernel Debug Network Adapter",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "kdnic.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_00&Col03\\8&32115381&0&0000",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f0-92d4-11ee-b029-806e6f6e6963}#000000E8C0000000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_8087&PID_0033\\5&78efddd&0&14",
+    "gerätebeschreibung": "Intel(R) Wireless Bluetooth(R)",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem91.inf"
+  },
+  {
+    "instanz_id": "ROOT\\FANATEC_WHEEL_VIRTUAL_MOUSE\\0000",
+    "gerätebeschreibung": "Fanatec Wheel Virtual Mouse",
+    "klassenname": "FANATEC Gaming Devices",
+    "klassen_guid": "{07d6cf0d-8602-42e8-ab52-4829384e6e94}",
+    "herstellername": "Corsair",
+    "status": "Gestartet",
+    "treibername": "oem103.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110b-0000-1000-8000-00805f9b34fb}_VID&0001009e_PID&4009\\7&36c75ca0&0&08DF1FE08195_C00000000",
+    "gerätebeschreibung": "Bose Mini II SoundLink Stereo",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_a2dp_src.inf"
+  },
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\OEM_ES_component&4&3123f2b&0",
+    "gerätebeschreibung": "Intel(R) iCLS Client",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "oem70.inf"
+  },
+  {
+    "instanz_id": "DISPLAY\\ACR041B\\5&2de1e512&0&UID4353",
+    "gerätebeschreibung": "PnP-Monitor (Standard)",
+    "klassenname": "Monitor",
+    "klassen_guid": "{4d36e96e-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardmonitortypen)",
+    "status": "Gestartet",
+    "treibername": "monitor.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col01\\3&27ef53f1&0&0000",
+    "gerätebeschreibung": "HID-Tastatur",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardtastaturen)",
+    "status": "Gestartet",
+    "treibername": "keyboard.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{f091ee49-a26f-4f6f-916d-90a544bd0295}",
+    "gerätebeschreibung": "Lautsprecher (Realtek(R) Audio)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f0-92d4-11ee-b029-806e6f6e6963}#0000000007500000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col06\\3&27ef53f1&0&0005",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "SWD\\DRIVERENUM\\{c3a63edd-2d27-4b66-b155-5e94b43d926a}#RealtekHSA&5&88db0f1&0",
+    "gerätebeschreibung": "Realtek Hardware Support Application",
+    "klassenname": "SoftwareComponent",
+    "klassen_guid": "{5c4c3332-344d-483c-8739-259e934c9cc8}",
+    "herstellername": "Realtek",
+    "status": "Gestartet",
+    "treibername": "oem76.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f2-92d4-11ee-b029-806e6f6e6963}#0000000000004400",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "HDAUDIO\\FUNC_01&VEN_10DE&DEV_00AB&SUBSYS_10DE0000&REV_1001\\5&384c35c1&0&0001",
+    "gerätebeschreibung": "NVIDIA High Definition Audio",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "NVIDIA",
+    "status": "Gestartet",
+    "treibername": "oem116.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0E\\3&27ef53f1&0&000d",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "ACPI\\INTC1078\\2&daba3ff&1",
+    "gerätebeschreibung": "Intel(R) HID Event Filter",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Intel(R) Corporation",
+    "status": "Gestartet",
+    "treibername": "oem83.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_01&Col01\\7&221363f4&0&0000",
+    "gerätebeschreibung": "HID-Tastatur",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardtastaturen)",
+    "status": "Gestartet",
+    "treibername": "keyboard.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A7D&SUBSYS_00000000&REV_11\\3&11583659&1&C9",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A7D",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.1.00000000}.{3a000206-625b-4d99-a42f-497b46b3dca2}",
+    "gerätebeschreibung": "Mikrofon (2- Shure MV6)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "SCSI\\Disk&Ven_Samsung&Prod_SSD_870_QVO_2TB\\4&3ad479e5&0&050000",
+    "gerätebeschreibung": "Samsung SSD 870 QVO 2TB",
+    "klassenname": "DiskDrive",
+    "klassen_guid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardlaufwerke)",
+    "status": "Gestartet",
+    "treibername": "disk.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col10\\3&27ef53f1&0&000f",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "ROOT\\UMBUS\\0000",
+    "gerätebeschreibung": "UMBus-Stamm-Busenumerator",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "umbus.inf"
+  },
+  {
+    "instanz_id": "UEFI\\RES_{2fe2cbfc-b9aa-4a93-ab5b-40173b581c42}\\0",
+    "gerätebeschreibung": "Gerätefirmware",
+    "klassenname": "Firmware",
+    "klassen_guid": "{f2e7dd72-6468-4e36-b6f1-6488f42c1b52}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_firmware.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A4F&SUBSYS_00000000&REV_11\\3&11583659&1&AB",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A4F",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_01&Col03\\7&39ff06a5&0&0002",
+    "gerätebeschreibung": "HID-konformer Systemcontroller",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "SWD\\RADIO\\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}",
+    "gerätebeschreibung": "Microsoft Radio Device Enumeration Bus",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{d7c8756f-3a1f-4681-9142-41e9e9b04bc2}",
+    "gerätebeschreibung": "Realtek Digital Output (Realtek(R) Audio)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "ACPI\\INTC1085\\2&daba3ff&1",
+    "gerätebeschreibung": "Intel(R) Serial IO GPIO Host Controller - INTC1085",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem80.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{00001000-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "Dienstermittlungsdienst",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bth.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{00001801-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "Bluetooth-Peripheriegerät",
+    "klassenname": "Unbekannt",
+    "klassen_guid": "Unbekannt",
+    "herstellername": "Unbekannt",
+    "status": "Gestartet"
+  },
+  {
+    "instanz_id": "SWD\\MSDAS\\{ce958e9a-424f-4c88-86f4-11314821e75a}",
+    "gerätebeschreibung": "Microsoft Device Association Root Enumerator",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "RZCONTROL\\VID_1532&PID_0067&MI_00\\8&5a5829c&0",
+    "gerätebeschreibung": "Razer Control Device",
+    "klassenname": "Razer Device",
+    "klassen_guid": "{1750f915-5639-497c-966c-3a65acecfcb6}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem38.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{74B24898-B362-44BD-BFA3-D23368C48315}",
+    "gerätebeschreibung": "Microsoft XPS Document Writer",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "ROOT\\ACPI_HAL\\0000",
+    "gerätebeschreibung": "ACPI x64-basierter PC",
+    "klassenname": "Computer",
+    "klassen_guid": "{4d36e966-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardcomputer)",
+    "status": "Gestartet",
+    "treibername": "hal.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\GigaLPCRS",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_NDISWANBH",
+    "gerätebeschreibung": "WAN Miniport (Network Monitor)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_NDISWANIP",
+    "gerätebeschreibung": "WAN Miniport (IP)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f2-92d4-11ee-b029-806e6f6e6963}#0000000001000000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C14\\TestDev",
+    "gerätebeschreibung": "Microsoft Windows-Verwaltungsschnittstelle für ACPI",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wmiacpi.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0A08\\0",
+    "gerätebeschreibung": "Stammkomplex für PCI-Express",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "pci.inf"
+  },
+  {
+    "instanz_id": "SWD\\RADIO\\{392FF801-B719-4FC1-8EFB-7A2A0465CA45}",
+    "gerätebeschreibung": "WLAN 2",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "SWD\\RADIO\\Bluetooth_f4c88a2f734d",
+    "gerätebeschreibung": "Bluetooth",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\0",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\1",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\2",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\3",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\4",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\5",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\6",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\7",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\8",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\9",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\a",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\b",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\c",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\d",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\e",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\f",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0000\\4&2192d5ea&0",
+    "gerätebeschreibung": "Programmierbarer Interruptcontroller",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_046D&PID_C33F&MI_00\\6&2dfc6465&0&0000",
+    "gerätebeschreibung": "USB-Eingabegerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "SCSI\\Disk&Ven_NVMe&Prod_CT4000P3SSD8\\5&16cc553a&0&000000",
+    "gerätebeschreibung": "NVMe CT4000P3SSD8",
+    "klassenname": "DiskDrive",
+    "klassen_guid": "{4d36e967-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardlaufwerke)",
+    "status": "Gestartet",
+    "treibername": "disk.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_048D&PID_5702&Col02\\6&5a37c1&0&0001",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_10EC&DEV_8125&SUBSYS_E0001458&REV_05\\01000000684CE00000",
+    "gerätebeschreibung": "Realtek Gaming 2.5GbE Family Controller #3",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Realtek",
+    "status": "Gestartet",
+    "treibername": "oem82.inf"
+  },
+  {
+    "instanz_id": "ROOT\\VPCIVSP\\0000",
+    "gerätebeschreibung": "Microsoft Hyper-V-PCI-Server",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wvpcivsp.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f0-92d4-11ee-b029-806e6f6e6963}#0000000006500000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A50&SUBSYS_A1941458&REV_11\\3&11583659&1&FB",
+    "gerätebeschreibung": "High Definition Audio-Controller",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hdaudbus.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{E4A4DB53-36A5-4965-B8CA-C608ABAECD8E}",
+    "gerätebeschreibung": "OneNote (Desktop)",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C0C\\2&daba3ff&1",
+    "gerätebeschreibung": "ACPI-Einschaltknopf",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ACPI_HAL\\PNP0C08\\0",
+    "gerätebeschreibung": "Microsoft ACPI-konformes System",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "acpi.inf"
+  },
+  {
+    "instanz_id": "HTREE\\ROOT\\0",
+    "gerätebeschreibung": "Unbekannt",
+    "klassenname": "Unbekannt",
+    "klassen_guid": "Unbekannt",
+    "herstellername": "Unbekannt",
+    "status": "Gestartet"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A4C&SUBSYS_00000000&REV_11\\3&11583659&1&A8",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A4C",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "ROOT\\BasicRender\\0000",
+    "gerätebeschreibung": "Microsoft Basic Render Driver",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "basicrender.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col02\\3&27ef53f1&0&0001",
+    "gerätebeschreibung": "HID-kompatible Drahtlos-Empfängersteuerelemente",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "SWD\\PRINTENUM\\{B65072C7-77B3-43AC-8799-C42172E7BCFF}",
+    "gerätebeschreibung": "EPSON515F3E (ET-3750 Series)",
+    "klassenname": "PrintQueue",
+    "klassen_guid": "{1ed2bbf9-11f0-4084-b21f-ad83a8e6dcdc}",
+    "herstellername": "EPSON",
+    "status": "Gestartet",
+    "treibername": "printqueue.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{28da4d5f-3efe-4b65-a505-373e5e7edc96}",
+    "gerätebeschreibung": "LG ULTRAGEAR (NVIDIA High Definition Audio)",
+    "klassenname": "AudioEndpoint",
+    "klassen_guid": "{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "audioendpoint.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_SSTPMINIPORT",
+    "gerätebeschreibung": "WAN Miniport (SSTP)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netsstpa.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col07\\3&27ef53f1&0&0006",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "SWD\\DAFUPnPProvider\\uuid:BO5EBO5E-F00D-F00D-FEED-A0F6FD3F1B3B",
+    "gerätebeschreibung": "Wohnzimmer",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Bose Corporation",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\Dev_708CF27C8345\\7&36c75ca0&0&BluetoothDevice_708CF27C8345",
+    "gerätebeschreibung": "AirPods Pro JG - Find My",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bth.inf"
+  },
+  {
+    "instanz_id": "ACPI_HAL\\UEFI\\0",
+    "gerätebeschreibung": "Microsoft UEFI-konformes System",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "uefi.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A04&SUBSYS_50011458&REV_11\\3&11583659&1&F8",
+    "gerätebeschreibung": "Intel(R) LPC Controller/eSPI Controller - 7A04",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "{2F2B7B01-597A-434C-8DD6-D27CD46EF73C}\\IntelTileDevice\\6&22101a12&0",
+    "gerätebeschreibung": "Intel Tile Device",
+    "klassenname": "Unbekannt",
+    "klassen_guid": "Unbekannt",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet"
+  },
+  {
+    "instanz_id": "UEFI\\RES_{7aa69739-8f78-41cb-bf44-854e2cb516bd}\\0",
+    "gerätebeschreibung": "Gerätefirmware",
+    "klassenname": "Firmware",
+    "klassen_guid": "{f2e7dd72-6468-4e36-b6f1-6488f42c1b52}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_firmware.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0A\\3&27ef53f1&0&0009",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0F\\3&27ef53f1&0&000e",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_01&Col02\\7&221363f4&0&0001",
+    "gerätebeschreibung": "HID-konforme Maus",
+    "klassenname": "Mouse",
+    "klassen_guid": "{4d36e96f-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "msmouse.inf"
+  },
+  {
+    "instanz_id": "ACPI\\MSFT0101\\1",
+    "gerätebeschreibung": "Trusted Platform Module 2.0",
+    "klassenname": "SecurityDevices",
+    "klassen_guid": "{d94ee5d8-d189-4994-83d2-f68d7d41b0e6}",
+    "herstellername": "(Standard)",
+    "status": "Gestartet",
+    "treibername": "tpm.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A48&SUBSYS_00000000&REV_11\\3&11583659&1&D0",
+    "gerätebeschreibung": "Intel(R) PCI Express Root Port #25 - 7A48",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "ACPI\\FixedButton\\2&daba3ff&1",
+    "gerätebeschreibung": "ACPI-Schalter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_02\\7&26ceea67&0&0000",
+    "gerätebeschreibung": "Razer Naga Trinity",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem36.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_00\\7&a4fd7af&0&0000",
+    "gerätebeschreibung": "HID-Tastatur",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardtastaturen)",
+    "status": "Gestartet",
+    "treibername": "keyboard.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{74ec2172-0bad-4d01-8f77-997b2be0722a}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "Bluetooth-Peripheriegerät",
+    "klassenname": "Unbekannt",
+    "klassen_guid": "Unbekannt",
+    "herstellername": "Unbekannt",
+    "status": "Gestartet"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col11\\3&27ef53f1&0&0010",
+    "gerätebeschreibung": "HID-konformes, vom Hersteller definiertes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "ACPI\\ACPI000E\\2&daba3ff&1",
+    "gerätebeschreibung": "ACPI Wake Alarm",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "acpitime.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_01&Col04\\7&39ff06a5&0&0003",
+    "gerätebeschreibung": "HID-konformes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_14ED&PID_1026&MI_00\\6&396f4ba9&0&0000",
+    "gerätebeschreibung": "USB-Eingabegerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_1458A194&REV_1004\\4&317c1307&0&0001",
+    "gerätebeschreibung": "Realtek(R) Audio",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Realtek",
+    "status": "Gestartet",
+    "treibername": "oem73.inf",
+    "erweiterungstreibernamen": "oem72.inf"
+  },
+  {
+    "instanz_id": "ACPI\\INT33A1\\1",
+    "gerätebeschreibung": "Intel(R)-Energiemodul-Plug-In",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "intelpep.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_046D&PID_C33F&MI_01\\6&2dfc6465&0&0001",
+    "gerätebeschreibung": "USB-Eingabegerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "ROOT\\storvsp\\0000",
+    "gerätebeschreibung": "Microsoft Hyper-V-Server für virtuelle Datenträger",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "wstorvsp.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_048D&PID_5702\\5&78efddd&0&13",
+    "gerätebeschreibung": "USB-Eingabegerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "ACPI\\PNP0C02\\IoTraps",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "ROOT\\UNNAMED_DEVICE\\0000",
+    "gerätebeschreibung": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "NVIDIA",
+    "status": "Gestartet",
+    "treibername": "oem106.inf"
+  },
+  {
+    "instanz_id": "SWD\\XvddEnum\\XvddRootDevice_Instance",
+    "gerätebeschreibung": "Xvdd SCSI Miniport",
+    "klassenname": "SCSIAdapter",
+    "klassen_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Xbox",
+    "status": "Gestartet",
+    "treibername": "oem111.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110c-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "AirPods Pro JG - Find My AVRCP-Transport",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_avrcptransport.inf"
+  },
+  {
+    "instanz_id": "HID\\ConvertedDevice&Col03\\5&51a60f0&0&0002",
+    "gerätebeschreibung": "HID-konformer Systemcontroller",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "SWD\\MMDEVAPI\\MicrosoftGSWavetableSynth",
+    "gerätebeschreibung": "Microsoft GS Wavetable Synthesizer",
+    "klassenname": "SoftwareDevice",
+    "klassen_guid": "{62f9c741-b25a-46ce-b54c-9bccce08b6f2}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "c_swdevice.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_A70D&SUBSYS_50001458&REV_01\\3&11583659&1&08",
+    "gerätebeschreibung": "Intel(R) PCIe RC 010 G5 - A70D",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Gestartet",
+    "treibername": "oem77.inf"
+  },
+  {
+    "instanz_id": "HID\\ConvertedDevice&Col02\\5&51a60f0&0&0001",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col03\\3&27ef53f1&0&0002",
+    "gerätebeschreibung": "HID-konformer Systemcontroller",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_046D&PID_C33F\\057E385B3232",
+    "gerätebeschreibung": "USB-Verbundgerät",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standard-USB-Hostcontroller)",
+    "status": "Gestartet",
+    "treibername": "usb.inf"
+  },
+  {
+    "instanz_id": "BTH\\MS_BTHLE\\6&22101a12&0&3",
+    "gerätebeschreibung": "Microsoft Bluetooth LE-Enumerator",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bthleenum.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col08\\3&27ef53f1&0&0007",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "HID\\ConvertedDevice&Col01\\5&51a60f0&0&0000",
+    "gerätebeschreibung": "HID-Tastatur",
+    "klassenname": "Keyboard",
+    "klassen_guid": "{4d36e96b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardtastaturen)",
+    "status": "Gestartet",
+    "treibername": "keyboard.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A23&SUBSYS_50011458&REV_11\\3&11583659&1&FC",
+    "gerätebeschreibung": "Intel(R) SMBus - 7A23",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "INTEL",
+    "status": "Beendet",
+    "treibername": "oem78.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{4715650b-5e9d-4ac2-b898-a4fc0aa5df78}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "Bluetooth-Peripheriegerät",
+    "klassenname": "Unbekannt",
+    "klassen_guid": "Unbekannt",
+    "herstellername": "Unbekannt",
+    "status": "Gestartet"
+  },
+  {
+    "instanz_id": "ACPI\\INTC109C\\4&2192d5ea&0",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A7C&SUBSYS_00000000&REV_11\\3&11583659&1&C8",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A7C",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f1-92d4-11ee-b029-806e6f6e6963}#0000000001100000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "ROOT\\NdisVirtualBus\\0000",
+    "gerätebeschreibung": "Enumerator für virtuelle NDIS-Netzwerkadapter",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "ndisvirtualbus.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col0B\\3&27ef53f1&0&000a",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A60&SUBSYS_50071458&REV_11\\3&11583659&1&A0",
+    "gerätebeschreibung": "Intel(R) USB 3.20 eXtensible-Hostcontroller – 1.20 (Microsoft)",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "Generischer USB-xHCI-Hostcontroller",
+    "status": "Gestartet",
+    "treibername": "usbxhci.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_05E3&PID_0608\\5&78efddd&0&11",
+    "gerätebeschreibung": "Generischer USB-Hub",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standardmäßige USB-HUBs)",
+    "status": "Gestartet",
+    "treibername": "usbhub3.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_05E3&PID_0608\\5&78efddd&0&12",
+    "gerätebeschreibung": "Generischer USB-Hub",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standardmäßige USB-HUBs)",
+    "status": "Gestartet",
+    "treibername": "usbhub3.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A4E&SUBSYS_00000000&REV_11\\3&11583659&1&AA",
+    "gerätebeschreibung": "Intel(R) Serial IO I2C Host Controller - 7A4E",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel Corporation",
+    "status": "Gestartet",
+    "treibername": "oem81.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\Dev_08DF1FE08195\\7&36c75ca0&0&BluetoothDevice_08DF1FE08195",
+    "gerätebeschreibung": "Bose Mini II SoundLink",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "bth.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_046D&PID_C33F&MI_01&Col03\\7&221363f4&0&0002",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_8086&DEV_7A68&SUBSYS_1C3A1458&REV_11\\3&11583659&1&B0",
+    "gerätebeschreibung": "Intel(R) Management Engine Interface #1",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "oem68.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col12\\3&27ef53f1&0&0011",
+    "gerätebeschreibung": "PDC (Portable Device Control)-Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "buttonconverter.inf"
+  },
+  {
+    "instanz_id": "HID\\VID_1532&PID_0067&MI_01&Col05\\7&39ff06a5&0&0004",
+    "gerätebeschreibung": "HID-konformes Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "PCI\\VEN_144D&DEV_A809&SUBSYS_A801144D&REV_00\\4&22749c2e&0&0030",
+    "gerätebeschreibung": "Standardmäßiger NVM Express-Controller",
+    "klassenname": "SCSIAdapter",
+    "klassen_guid": "{4d36e97b-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Standardmäßiger NVM Express-Controller",
+    "status": "Gestartet",
+    "treibername": "stornvme.inf"
+  },
+  {
+    "instanz_id": "RZVIRTUAL\\VID_1532&PID_0067&MI_00&Col03\\7&39ff06a5&0&01",
+    "gerätebeschreibung": "HID-compliant consumer control device",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Razer Inc",
+    "status": "Gestartet",
+    "treibername": "oem35.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110e-0000-1000-8000-00805f9b34fb}_VID&0001004c_PID&2024\\7&36c75ca0&0&708CF27C8345_C00000000",
+    "gerätebeschreibung": "AirPods Pro JG - Find My AVRCP-Transport",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_avrcptransport.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_14ED&PID_1026&MI_01\\6&396f4ba9&0&0001",
+    "gerätebeschreibung": "Shure MV6",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "usbaudio2.inf"
+  },
+  {
+    "instanz_id": "ROOT\\mssmbios\\0000",
+    "gerätebeschreibung": "Microsoft-Systemverwaltungs-BIOS-Treiber",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "mssmbios.inf"
+  },
+  {
+    "instanz_id": "ACPI\\INT340E\\2&daba3ff&1",
+    "gerätebeschreibung": "Hauptplatinenressourcen",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Beendet",
+    "treibername": "machine.inf"
+  },
+  {
+    "instanz_id": "BTHHFENUM\\BthHFPAudio\\8&36880e3d&0&97",
+    "gerätebeschreibung": "Bose Mini II SoundLink Hands-Free AG Audio",
+    "klassenname": "MEDIA",
+    "klassen_guid": "{4d36e96c-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_hfp.inf"
+  },
+  {
+    "instanz_id": "BTHENUM\\{0000110c-0000-1000-8000-00805f9b34fb}_VID&0001009e_PID&4009\\7&36c75ca0&0&08DF1FE08195_C00000000",
+    "gerätebeschreibung": "Bose Mini II SoundLink AVRCP-Transport",
+    "klassenname": "Bluetooth",
+    "klassen_guid": "{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "microsoft_bluetooth_avrcptransport.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\10",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\11",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\12",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\13",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\14",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\15",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\16",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ACPI\\GenuineIntel_-_Intel64_Family_6_Model_183_-_13th_Gen_Intel(R)_Core(TM)_i7-13700KF\\17",
+    "gerätebeschreibung": "13th Gen Intel(R) Core(TM) i7-13700KF",
+    "klassenname": "Processor",
+    "klassen_guid": "{50127dc3-0f36-415e-a6cc-4cb3be910b65}",
+    "herstellername": "Intel",
+    "status": "Gestartet",
+    "treibername": "cpu.inf"
+  },
+  {
+    "instanz_id": "ButtonConverter\\ConvertedDevice\\4&2436b645&0&0",
+    "gerätebeschreibung": "Konvertiertes PDC (Portable Device Control)-Gerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "buttonconverter.inf"
+  },
+  {
+    "instanz_id": "ROOT\\SYSTEM\\0000",
+    "gerätebeschreibung": "PnP-Softwaregeräte-Enumerator",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "swenum.inf"
+  },
+  {
+    "instanz_id": "ROOT\\SYSTEM\\0001",
+    "gerätebeschreibung": "Virtual Gamepad Emulation Bus",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Benjamin Hoeglinger-Stelzer",
+    "status": "Gestartet",
+    "treibername": "oem47.inf"
+  },
+  {
+    "instanz_id": "ROOT\\SYSTEM\\0002",
+    "gerätebeschreibung": "HidGuardian Virtual Device",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Benjamin Höglinger-Stelzer",
+    "status": "Gestartet",
+    "treibername": "oem48.inf"
+  },
+  {
+    "instanz_id": "ROOT\\RDPBUS\\0000",
+    "gerätebeschreibung": "Redirector-Bus für Remotedesktop-Gerät",
+    "klassenname": "System",
+    "klassen_guid": "{4d36e97d-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "rdpbus.inf"
+  },
+  {
+    "instanz_id": "STORAGE\\Volume\\{803c53f1-92d4-11ee-b029-806e6f6e6963}#0000000000100000",
+    "gerätebeschreibung": "Volume",
+    "klassenname": "Volume",
+    "klassen_guid": "{71a27cdd-812a-11d0-bec7-08002be2092f}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "volume.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_NDISWANIPV6",
+    "gerätebeschreibung": "WAN Miniport (IPv6)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col04\\3&27ef53f1&0&0003",
+    "gerätebeschreibung": "HID-konformer Systemcontroller",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "(Standardsystemgeräte)",
+    "status": "Gestartet",
+    "treibername": "input.inf"
+  },
+  {
+    "instanz_id": "USB\\VID_1532&PID_0067\\00000000001A",
+    "gerätebeschreibung": "USB-Verbundgerät",
+    "klassenname": "USB",
+    "klassen_guid": "{36fc9e60-c465-11cf-8056-444553540000}",
+    "herstellername": "(Standard-USB-Hostcontroller)",
+    "status": "Gestartet",
+    "treibername": "usb.inf"
+  },
+  {
+    "instanz_id": "HID\\INTC816&Col09\\3&27ef53f1&0&0008",
+    "gerätebeschreibung": "HID-konformes Benutzersteuergerät",
+    "klassenname": "HIDClass",
+    "klassen_guid": "{745a17a0-74d3-11d0-b6fe-00a0c90f57da}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "hidserv.inf"
+  },
+  {
+    "instanz_id": "SWD\\MSRRAS\\MS_L2TPMINIPORT",
+    "gerätebeschreibung": "WAN Miniport (L2TP)",
+    "klassenname": "Net",
+    "klassen_guid": "{4d36e972-e325-11ce-bfc1-08002be10318}",
+    "herstellername": "Microsoft",
+    "status": "Gestartet",
+    "treibername": "netrasa.inf"
+  }
+]

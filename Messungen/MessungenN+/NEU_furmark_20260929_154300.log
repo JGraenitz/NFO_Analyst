@@ -1,0 +1,108 @@
+﻿2026-09-29T15:43:00.640  ====================================================================
+2026-09-29T15:43:00.648  FURMARK-BENCHMARK  Label=NEU  Test=False
+2026-09-29T15:43:00.649  FurMark=C:\tools\FurMark\furmark.exe  Version=2  Modus=Benchmark  Demo=furmark-gl  1920x1080  MSAA=0
+2026-09-29T15:43:00.650  Load=180s  Idle=60s  Iter=10
+2026-09-29T15:43:00.652  GPU: Intel(R) UHD Graphics 630 | Treiber: 31.0.101.2141 | Datum: 03/30/2026 02:00:00
+2026-09-29T15:43:00.653  ====================================================================
+2026-09-29T15:43:00.665  
+2026-09-29T15:43:00.667  >>> ITERATION 1 / 10
+2026-09-29T15:43:00.671  IDLE_PRE  START  2026-09-29T15:43:00.671
+2026-09-29T15:44:00.661  IDLE_PRE  END    2026-09-29T15:44:00.661
+2026-09-29T15:44:00.683  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter1 --logfile-suffix _NEU_iter1 --gpu-monitor-print
+2026-09-29T15:44:00.686  FURMARK   START  2026-09-29T15:44:00.686
+2026-09-29T15:47:09.225  FURMARK   END    2026-09-29T15:47:09.221  Dauer=188.53s  Soll=180s  ExitCode=0
+2026-09-29T15:47:09.233  IDLE_POST START  2026-09-29T15:47:09.233
+2026-09-29T15:48:09.215  IDLE_POST END    2026-09-29T15:48:09.215
+2026-09-29T15:48:09.225  
+2026-09-29T15:48:09.226  >>> ITERATION 2 / 10
+2026-09-29T15:48:09.229  IDLE_PRE  START  2026-09-29T15:48:09.229
+2026-09-29T15:49:09.222  IDLE_PRE  END    2026-09-29T15:49:09.222
+2026-09-29T15:49:09.226  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter2 --logfile-suffix _NEU_iter2 --gpu-monitor-print
+2026-09-29T15:49:09.229  FURMARK   START  2026-09-29T15:49:09.229
+2026-09-29T15:52:16.839  FURMARK   END    2026-09-29T15:52:16.839  Dauer=187.61s  Soll=180s  ExitCode=0
+2026-09-29T15:52:16.844  IDLE_POST START  2026-09-29T15:52:16.844
+2026-09-29T15:53:16.838  IDLE_POST END    2026-09-29T15:53:16.838
+2026-09-29T15:53:16.847  
+2026-09-29T15:53:16.848  >>> ITERATION 3 / 10
+2026-09-29T15:53:16.851  IDLE_PRE  START  2026-09-29T15:53:16.851
+2026-09-29T15:54:16.845  IDLE_PRE  END    2026-09-29T15:54:16.845
+2026-09-29T15:54:16.850  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter3 --logfile-suffix _NEU_iter3 --gpu-monitor-print
+2026-09-29T15:54:16.853  FURMARK   START  2026-09-29T15:54:16.853
+2026-09-29T15:57:24.353  FURMARK   END    2026-09-29T15:57:24.353  Dauer=187.5s  Soll=180s  ExitCode=0
+2026-09-29T15:57:24.356  IDLE_POST START  2026-09-29T15:57:24.356
+2026-09-29T15:58:24.352  IDLE_POST END    2026-09-29T15:58:24.352
+2026-09-29T15:58:24.357  
+2026-09-29T15:58:24.358  >>> ITERATION 4 / 10
+2026-09-29T15:58:24.398  IDLE_PRE  START  2026-09-29T15:58:24.397
+2026-09-29T15:59:24.355  IDLE_PRE  END    2026-09-29T15:59:24.355
+2026-09-29T15:59:24.358  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter4 --logfile-suffix _NEU_iter4 --gpu-monitor-print
+2026-09-29T15:59:24.361  FURMARK   START  2026-09-29T15:59:24.360
+2026-09-29T16:02:32.026  FURMARK   END    2026-09-29T16:02:32.025  Dauer=187.67s  Soll=180s  ExitCode=0
+2026-09-29T16:02:32.032  IDLE_POST START  2026-09-29T16:02:32.031
+2026-09-29T16:03:32.025  IDLE_POST END    2026-09-29T16:03:32.025
+2026-09-29T16:03:32.030  
+2026-09-29T16:03:32.031  >>> ITERATION 5 / 10
+2026-09-29T16:03:32.034  IDLE_PRE  START  2026-09-29T16:03:32.033
+2026-09-29T16:04:32.028  IDLE_PRE  END    2026-09-29T16:04:32.028
+2026-09-29T16:04:32.032  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter5 --logfile-suffix _NEU_iter5 --gpu-monitor-print
+2026-09-29T16:04:32.034  FURMARK   START  2026-09-29T16:04:32.034
+2026-09-29T16:07:39.599  FURMARK   END    2026-09-29T16:07:39.599  Dauer=187.57s  Soll=180s  ExitCode=0
+2026-09-29T16:07:39.603  IDLE_POST START  2026-09-29T16:07:39.602
+2026-09-29T16:08:39.599  IDLE_POST END    2026-09-29T16:08:39.599
+2026-09-29T16:08:39.603  
+2026-09-29T16:08:39.605  >>> ITERATION 6 / 10
+2026-09-29T16:08:39.607  IDLE_PRE  START  2026-09-29T16:08:39.607
+2026-09-29T16:09:39.602  IDLE_PRE  END    2026-09-29T16:09:39.602
+2026-09-29T16:09:39.605  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter6 --logfile-suffix _NEU_iter6 --gpu-monitor-print
+2026-09-29T16:09:39.607  FURMARK   START  2026-09-29T16:09:39.607
+2026-09-29T16:12:47.175  FURMARK   END    2026-09-29T16:12:47.175  Dauer=187.57s  Soll=180s  ExitCode=0
+2026-09-29T16:12:47.179  IDLE_POST START  2026-09-29T16:12:47.179
+2026-09-29T16:13:47.175  IDLE_POST END    2026-09-29T16:13:47.175
+2026-09-29T16:13:47.179  
+2026-09-29T16:13:47.180  >>> ITERATION 7 / 10
+2026-09-29T16:13:47.183  IDLE_PRE  START  2026-09-29T16:13:47.183
+2026-09-29T16:14:47.177  IDLE_PRE  END    2026-09-29T16:14:47.177
+2026-09-29T16:14:47.180  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter7 --logfile-suffix _NEU_iter7 --gpu-monitor-print
+2026-09-29T16:14:47.183  FURMARK   START  2026-09-29T16:14:47.183
+2026-09-29T16:17:54.627  FURMARK   END    2026-09-29T16:17:54.627  Dauer=187.45s  Soll=180s  ExitCode=0
+2026-09-29T16:17:54.632  IDLE_POST START  2026-09-29T16:17:54.632
+2026-09-29T16:18:54.627  IDLE_POST END    2026-09-29T16:18:54.627
+2026-09-29T16:18:54.631  
+2026-09-29T16:18:54.633  >>> ITERATION 8 / 10
+2026-09-29T16:18:54.635  IDLE_PRE  START  2026-09-29T16:18:54.635
+2026-09-29T16:19:54.630  IDLE_PRE  END    2026-09-29T16:19:54.630
+2026-09-29T16:19:54.633  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter8 --logfile-suffix _NEU_iter8 --gpu-monitor-print
+2026-09-29T16:19:54.636  FURMARK   START  2026-09-29T16:19:54.636
+2026-09-29T16:23:02.139  FURMARK   END    2026-09-29T16:23:02.139  Dauer=187.5s  Soll=180s  ExitCode=0
+2026-09-29T16:23:02.143  IDLE_POST START  2026-09-29T16:23:02.143
+2026-09-29T16:24:02.138  IDLE_POST END    2026-09-29T16:24:02.138
+2026-09-29T16:24:02.143  
+2026-09-29T16:24:02.144  >>> ITERATION 9 / 10
+2026-09-29T16:24:02.147  IDLE_PRE  START  2026-09-29T16:24:02.147
+2026-09-29T16:25:02.141  IDLE_PRE  END    2026-09-29T16:25:02.141
+2026-09-29T16:25:02.145  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter9 --logfile-suffix _NEU_iter9 --gpu-monitor-print
+2026-09-29T16:25:02.147  FURMARK   START  2026-09-29T16:25:02.147
+2026-09-29T16:28:09.721  FURMARK   END    2026-09-29T16:28:09.721  Dauer=187.57s  Soll=180s  ExitCode=0
+2026-09-29T16:28:09.725  IDLE_POST START  2026-09-29T16:28:09.724
+2026-09-29T16:29:09.720  IDLE_POST END    2026-09-29T16:29:09.720
+2026-09-29T16:29:09.724  
+2026-09-29T16:29:09.725  >>> ITERATION 10 / 10
+2026-09-29T16:29:09.728  IDLE_PRE  START  2026-09-29T16:29:09.728
+2026-09-29T16:30:09.722  IDLE_PRE  END    2026-09-29T16:30:09.722
+2026-09-29T16:30:09.725  FURMARK   BEFEHL  "C:\tools\FurMark\furmark.exe" --demo furmark-gl --width 1920 --height 1080 --benchmark --duration-ms 180000 --no-score-box --log-gpu-data --export-dir C:\Users\Administrator\Desktop\Graka\logs\NEU_furmark_20260929_154300\iter10 --logfile-suffix _NEU_iter10 --gpu-monitor-print
+2026-09-29T16:30:09.727  FURMARK   START  2026-09-29T16:30:09.727
+2026-09-29T16:33:17.175  FURMARK   END    2026-09-29T16:33:17.175  Dauer=187.45s  Soll=180s  ExitCode=0
+2026-09-29T16:33:17.179  IDLE_POST START  2026-09-29T16:33:17.179
+2026-09-29T16:34:17.176  IDLE_POST END    2026-09-29T16:34:17.176
+2026-09-29T16:34:19.606  ERGEBNIS  Iter 1  Dauer=188.53s  Exit=0  Score=923  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.624  ERGEBNIS  Iter 2  Dauer=187.61s  Exit=0  Score=954  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.640  ERGEBNIS  Iter 3  Dauer=187.5s  Exit=0  Score=965  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.640  ERGEBNIS  Iter 4  Dauer=187.67s  Exit=0  Score=951  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.656  ERGEBNIS  Iter 5  Dauer=187.57s  Exit=0  Score=969  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.672  ERGEBNIS  Iter 6  Dauer=187.57s  Exit=0  Score=948  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.687  ERGEBNIS  Iter 7  Dauer=187.45s  Exit=0  Score=943  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.687  ERGEBNIS  Iter 8  Dauer=187.5s  Exit=0  Score=942  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.703  ERGEBNIS  Iter 9  Dauer=187.57s  Exit=0  Score=963  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.719  ERGEBNIS  Iter 10  Dauer=187.45s  Exit=0  Score=960  FPS=n/a  Temp=n/a/n/aC  GPU-Leistung=n/a/n/aW  Events=0
+2026-09-29T16:34:19.723  ====================================================================
+2026-09-29T16:34:19.723  ZUSAMMENFASSUNG  Label=NEU  Abgebrochen=False

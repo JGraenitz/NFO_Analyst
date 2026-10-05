@@ -1,0 +1,44 @@
+
+"Analyse" wird für "(D:)" aufgerufen...
+
+
+Der Vorgang wurde abgeschlossen.
+
+Post Defragmentation Report:
+
+	Volumeinformationen:
+		Volumegröße                 = 1,81 TB
+		Clustergröße                = 4 KB
+		Belegter Speicherplatz      = 1,28 TB
+		Freier Speicherplatz        = 542,03 GB
+
+	Fragmentierung:
+		Fragmentierter Speicherplatz insgesamt      = 3%
+		Durchschnittliche Fragmente pro Datei  = 1,12
+
+		Dateien und Ordner, die verschoben werden können   = 174410
+		Dateien und Ordner, die nicht verschoben werden können = 4
+
+	Dateien:
+		Fragmentierte Dateien            = 844
+		Dateifragmente insgesamt        = 20729
+
+	Ordner:
+		Ordner insgesamt               = 3365
+		Fragmentierte Ordner          = 11
+		Ordnerfragmente insgesamt      = 29
+
+	Freier Speicherplatz:
+		Zähler für freien Speicherplatz            = 916
+		Durchschnittlicher freier Speicherplatz     = 605,74 MB
+		Größter freier Speicherplatz     = 132,26 GB
+
+	Master File Table (MFT):
+		MFT-Größe                       = 344,75 MB
+		Anzahl von MFT-Datensätzen      = 353023
+		MFT-Verwendung                  = 100 %
+		MFT-Fragmente insgesamt         = 2
+
+	Hinweis: Dateifragmente, die größer als 64 MB sind, sind nicht in den Fragmentierungsstatistiken enthalten.
+
+	Dieses Volume muss nicht defragmentiert werden.

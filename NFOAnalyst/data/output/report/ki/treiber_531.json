@@ -1,0 +1,25 @@
+{
+  "index": 531,
+  "treiber": {
+    "quelle": "msinfo32",
+    "originalname": "fvkmdsvc",
+    "beschreibung": "FvKMDSvc",
+    "version": null,
+    "datum": null,
+    "alter_jahre": null,
+    "bisherige_einstufung": "unbekannt"
+  },
+  "modell": "mistralai/mistral-nemotron",
+  "token_verbrauch": {
+    "prompt_tokens": 447,
+    "total_tokens": 612,
+    "completion_tokens": 165,
+    "prompt_tokens_details": null
+  },
+  "ki_einschaetzung": {
+    "wirklich_veraltet": "unsicher",
+    "vermutlich_neuere_version_verfuegbar": "unsicher",
+    "weiterhin_kritisch": false,
+    "begruendung": "Der Treiber 'FvKMDSvc' (Frame View Kernel Mode Service) ist ein Microsoft-interner Treiber für Virtualisierung oder Debugging-Zwecke (z.B. Frame Viewer für Windows Driver Kit). Da er keine Versions-/Datumsangabe hat und von Microsoft stammt, ist er wahrscheinlich stabil und wird nicht häufig aktualisiert. Ohne weitere Kontextinformationen (z.B. ob er für eine spezifische Hardware benötigt wird) ist eine Einstufung als 'kritisch' nicht gerechtfertigt."
+  }
+}

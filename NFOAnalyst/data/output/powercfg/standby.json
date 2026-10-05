@@ -1,0 +1,25 @@
+{
+  "verfügbar": [
+    "Standby (S3)",
+    "Ruhezustand",
+    "Schnellstart"
+  ],
+  "nicht_verfügbar": [
+    {
+      "name": "Standby (S1)",
+      "grund": "Die Systemfirmware unterstützt diesen Standbystatus nicht."
+    },
+    {
+      "name": "Standby (S2)",
+      "grund": "Die Systemfirmware unterstützt diesen Standbystatus nicht."
+    },
+    {
+      "name": "Standby (S0 Niedriger Energiestand - Leerlauf)",
+      "grund": "Dieser Standbyzustand wird von der Systemfirmware nicht unterstützt."
+    },
+    {
+      "name": "Hybrider Standbymodus",
+      "grund": "Dieser Standbyzustand wird von Hypervisor nicht unterstützt."
+    }
+  ]
+}

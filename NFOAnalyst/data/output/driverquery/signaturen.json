@@ -1,0 +1,1484 @@
+[
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Xvdd SCSI Miniport",
+    "infname": "oem111.inf",
+    "issigned": true,
+    "hersteller": "Xbox"
+  },
+  {
+    "gerätename": "WAN Miniport (Network Monitor)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (IPv6)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (IP)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (PPPOE)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (PPTP)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (L2TP)",
+    "infname": "netrasa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (IKEv2)",
+    "infname": "netavpna.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "WAN Miniport (SSTP)",
+    "infname": "netsstpa.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Local Print Queue",
+    "infname": "printqueue.inf",
+    "issigned": true,
+    "hersteller": "EPSON"
+  },
+  {
+    "gerätename": "Epson ESC/P-R V4 Class Driver",
+    "infname": "oem31.inf",
+    "issigned": true,
+    "hersteller": "EPSON"
+  },
+  {
+    "gerätename": "WSD Print Device",
+    "infname": "wsdprint.inf",
+    "issigned": true,
+    "hersteller": "EPSON"
+  },
+  {
+    "gerätename": "WSD-Scandienst",
+    "infname": "wsdscdrv.inf",
+    "issigned": true,
+    "hersteller": "EPSON"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "EPSON"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Bose Corporation"
+  },
+  {
+    "gerätename": "Generic software device",
+    "infname": "c_swdevice.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Remote Desktop Device Redirector Bus",
+    "infname": "rdpbus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HidGuardian Virtual Device",
+    "infname": "oem48.inf",
+    "issigned": false,
+    "hersteller": "Benjamin Höglinger-Stelzer"
+  },
+  {
+    "gerätename": "Virtual Gamepad Emulation Bus",
+    "infname": "oem47.inf",
+    "issigned": true,
+    "hersteller": "Benjamin Hoeglinger-Stelzer"
+  },
+  {
+    "gerätename": "Plug and Play Software Device Enumerator",
+    "infname": "swenum.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "Microsoft System Management BIOS Driver",
+    "infname": "mssmbios.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "NDIS Virtual Network Adapter Enumerator",
+    "infname": "ndisvirtualbus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+    "infname": "oem106.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Hyper-V Virtual Disk Server",
+    "infname": "wstorvsp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Basic Render Driver",
+    "infname": "basicrender.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Hyper-V PCI Server",
+    "infname": "wvpcivsp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Device Firmware",
+    "infname": "c_firmware.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Device Firmware",
+    "infname": "c_firmware.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Device Firmware",
+    "infname": "c_firmware.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "System Firmware",
+    "infname": "c_firmware.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft UEFI-Compliant System",
+    "infname": "uefi.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "ACPI Fixed Feature Button",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Thermal Zone",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Fan",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Fan",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Fan",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Fan",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Fan",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Thermal Zone",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Microsoft Windows Management Interface for ACPI",
+    "infname": "wmiacpi.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Resource Hub proxy device",
+    "infname": "rhproxy.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Trusted Platform Module 2.0",
+    "infname": "tpm.inf",
+    "issigned": true,
+    "hersteller": "(Standard)"
+  },
+  {
+    "gerätename": "ACPI Power Button",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "HID-compliant system controller",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID Keyboard Device",
+    "infname": "keyboard.inf",
+    "issigned": true,
+    "hersteller": "(Standard keyboards)"
+  },
+  {
+    "gerätename": "Converted Portable Device Control device",
+    "infname": "buttonconverter.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Portable Device Control device",
+    "infname": "buttonconverter.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant system controller",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant system controller",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant system controller",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant wireless radio controls",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID Keyboard Device",
+    "infname": "keyboard.inf",
+    "issigned": true,
+    "hersteller": "(Standard keyboards)"
+  },
+  {
+    "gerätename": "Intel(R) HID Event Filter",
+    "infname": "oem83.inf",
+    "issigned": true,
+    "hersteller": "Intel(R) Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Power Engine Plug-in",
+    "infname": "intelpep.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Microsoft Windows Management Interface for ACPI",
+    "infname": "wmiacpi.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Windows Management Interface for ACPI",
+    "infname": "wmiacpi.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "ACPI Processor Aggregator",
+    "infname": "acpipagr.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel Processor",
+    "infname": "cpu.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "ACPI Sleep Button",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO GPIO Host Controller - INTC1085",
+    "infname": "oem80.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "ACPI Wake Alarm",
+    "infname": "acpitime.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Intel(R) SPI (flash) Controller - 7A24",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Intel(R) SMBus - 7A23",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Realtek Audio Universal Service",
+    "infname": "oem75.inf",
+    "issigned": true,
+    "hersteller": "Realtek"
+  },
+  {
+    "gerätename": "Realtek Hardware Support Application",
+    "infname": "oem76.inf",
+    "issigned": true,
+    "hersteller": "Realtek"
+  },
+  {
+    "gerätename": "Realtek Audio Effects Component",
+    "infname": "oem74.inf",
+    "issigned": true,
+    "hersteller": "Realtek"
+  },
+  {
+    "gerätename": "Realtek High Definition Audio",
+    "infname": "oem73.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "High Definition Audio Controller",
+    "infname": "hdaudbus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "System timer",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Programmable interrupt controller",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "High precision event timer",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Motherboard resources",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "Intel(R) LPC Controller/eSPI Controller - 7A04",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Realtek Gaming 2.5GbE Family Controller",
+    "infname": "oem82.inf",
+    "issigned": true,
+    "hersteller": "Realtek"
+  },
+  {
+    "gerätename": "Intel(R) PCI Express Root Port #3 - 7A3A",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Intel(R) PCI Express Root Port #1 - 7A38",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Disk drive",
+    "infname": "disk.inf",
+    "issigned": true,
+    "hersteller": "(Standard disk drives)"
+  },
+  {
+    "gerätename": "Micron NVMe Storage Controller",
+    "infname": "oem64.inf",
+    "issigned": true,
+    "hersteller": "Micron Technology, Inc."
+  },
+  {
+    "gerätename": "Intel(R) PCI Express Root Port #25 - 7A48",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A7D",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A7C",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Disk drive",
+    "infname": "disk.inf",
+    "issigned": true,
+    "hersteller": "(Standard disk drives)"
+  },
+  {
+    "gerätename": "Standard SATA AHCI Controller",
+    "infname": "mshdc.inf",
+    "issigned": true,
+    "hersteller": "Standard SATA AHCI Controller"
+  },
+  {
+    "gerätename": "Intel(R) Management Engine WMI Provider",
+    "infname": "oem71.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel(R) iCLS Client",
+    "infname": "oem70.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel(R) Dynamic Application Loader Host Interface",
+    "infname": "oem69.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel(R) Management Engine Interface #1",
+    "infname": "oem68.inf",
+    "issigned": true,
+    "hersteller": "Intel"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A4F",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A4E",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A4D",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Serial IO I2C Host Controller - 7A4C",
+    "infname": "oem81.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Microsoft Wi-Fi Direct Virtual Adapter",
+    "infname": "netvwifimp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Wi-Fi Direct Virtual Adapter",
+    "infname": "netvwifimp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Intel(R) Wi-Fi 6E AX211 160MHz",
+    "infname": "oem65.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Shared SRAM - 7A27",
+    "infname": "oem78.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth LE Enumerator",
+    "infname": "bthleenum.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Bluetooth Device (Personal Area Network)",
+    "infname": "bthpan.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Bluetooth Device",
+    "infname": "bth.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Bluetooth Device",
+    "infname": "bth.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Bluetooth-Peripheriegerät",
+    "infname": "N/A",
+    "issigned": false,
+    "hersteller": "N/A"
+  },
+  {
+    "gerätename": "Bluetooth-Peripheriegerät",
+    "infname": "N/A",
+    "issigned": false,
+    "hersteller": "N/A"
+  },
+  {
+    "gerätename": "Bluetooth-Peripheriegerät",
+    "infname": "N/A",
+    "issigned": false,
+    "hersteller": "N/A"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Hands-Free Audio device",
+    "infname": "microsoft_bluetooth_hfp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Hands-Free Profile AudioGateway role",
+    "infname": "microsoft_bluetooth_hfp_ag.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Hands-Free Audio device",
+    "infname": "microsoft_bluetooth_hfp.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Hands-Free Profile AudioGateway role",
+    "infname": "microsoft_bluetooth_hfp_ag.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Avrcp Transport Driver",
+    "infname": "microsoft_bluetooth_avrcptransport.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Avrcp Transport Driver",
+    "infname": "microsoft_bluetooth_avrcptransport.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Avrcp Transport Driver",
+    "infname": "microsoft_bluetooth_avrcptransport.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Avrcp Transport Driver",
+    "infname": "microsoft_bluetooth_avrcptransport.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth A2dp Source",
+    "infname": "microsoft_bluetooth_a2dp_src.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth A2dp Source",
+    "infname": "microsoft_bluetooth_a2dp_src.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Service Discovery Service",
+    "infname": "bth.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Bluetooth Enumerator",
+    "infname": "bth.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Bluetooth Device (RFCOMM Protocol TDI)",
+    "infname": "tdibth.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Intel Tile Device",
+    "infname": "N/A",
+    "issigned": false,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "Intel(R) Wireless Bluetooth(R)",
+    "infname": "oem91.inf",
+    "issigned": true,
+    "hersteller": "Intel Corporation"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "USB Input Device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "Generic USB Hub",
+    "infname": "usbhub3.inf",
+    "issigned": true,
+    "hersteller": "(Standard USB HUBs)"
+  },
+  {
+    "gerätename": "Razer Naga Trinity",
+    "infname": "oem36.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "Razer Naga Trinity",
+    "infname": "oem56.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "oem35.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "HID-compliant device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant system controller",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID Keyboard Device",
+    "infname": "keyboard.inf",
+    "issigned": true,
+    "hersteller": "(Standard keyboards)"
+  },
+  {
+    "gerätename": "Razer Naga Trinity",
+    "infname": "oem33.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "Razer Control Device",
+    "infname": "oem38.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "Razer Naga Trinity",
+    "infname": "oem37.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "Razer Naga Trinity",
+    "infname": "oem34.inf",
+    "issigned": true,
+    "hersteller": "Razer Inc"
+  },
+  {
+    "gerätename": "USB Composite Device",
+    "infname": "usb.inf",
+    "issigned": true,
+    "hersteller": "(Standard-USB-Hostcontroller)"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID-compliant consumer control device",
+    "infname": "hidserv.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant mouse",
+    "infname": "msmouse.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID Keyboard Device",
+    "infname": "keyboard.inf",
+    "issigned": true,
+    "hersteller": "(Standard keyboards)"
+  },
+  {
+    "gerätename": "USB Input Device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "HID Keyboard Device",
+    "infname": "keyboard.inf",
+    "issigned": true,
+    "hersteller": "(Standard keyboards)"
+  },
+  {
+    "gerätename": "USB Input Device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "USB Composite Device",
+    "infname": "usb.inf",
+    "issigned": true,
+    "hersteller": "(Standard-USB-Hostcontroller)"
+  },
+  {
+    "gerätename": "Generic USB Hub",
+    "infname": "usbhub3.inf",
+    "issigned": true,
+    "hersteller": "(Standard USB HUBs)"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "USB Audio 2.0",
+    "infname": "usbaudio2.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "HID-compliant vendor-defined device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "USB Input Device",
+    "infname": "input.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "USB Composite Device",
+    "infname": "usb.inf",
+    "issigned": true,
+    "hersteller": "(Standard-USB-Hostcontroller)"
+  },
+  {
+    "gerätename": "USB Root Hub (USB 3.0)",
+    "infname": "usbhub3.inf",
+    "issigned": true,
+    "hersteller": "(Standard USB HUBs)"
+  },
+  {
+    "gerätename": "USB xHCI Compliant Host Controller",
+    "infname": "usbxhci.inf",
+    "issigned": true,
+    "hersteller": "Generic USB xHCI Host Controller"
+  },
+  {
+    "gerätename": "Disk drive",
+    "infname": "disk.inf",
+    "issigned": true,
+    "hersteller": "(Standard disk drives)"
+  },
+  {
+    "gerätename": "Standard NVM Express Controller",
+    "infname": "stornvme.inf",
+    "issigned": true,
+    "hersteller": "Standard NVM Express Controller"
+  },
+  {
+    "gerätename": "Intel(R) PCIe RC 060 (x4) G4 - A74D",
+    "infname": "oem77.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Audio Endpoint",
+    "infname": "audioendpoint.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "NVIDIA High Definition Audio",
+    "infname": "oem116.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "High Definition Audio Controller",
+    "infname": "hdaudbus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Generic PnP Monitor",
+    "infname": "monitor.inf",
+    "issigned": true,
+    "hersteller": "(Standard monitor types)"
+  },
+  {
+    "gerätename": "Generic PnP Monitor",
+    "infname": "monitor.inf",
+    "issigned": true,
+    "hersteller": "(Standard monitor types)"
+  },
+  {
+    "gerätename": "NVIDIA GeForce RTX 5080",
+    "infname": "oem113.inf",
+    "issigned": true,
+    "hersteller": "NVIDIA"
+  },
+  {
+    "gerätename": "Intel(R) PCIe RC 010 G5 - A70D",
+    "infname": "oem77.inf",
+    "issigned": true,
+    "hersteller": "INTEL"
+  },
+  {
+    "gerätename": "PCI standard host CPU bridge",
+    "infname": "machine.inf",
+    "issigned": true,
+    "hersteller": "(Standardsystemgeräte)"
+  },
+  {
+    "gerätename": "PCI Express Root Complex",
+    "infname": "pci.inf",
+    "issigned": true,
+    "hersteller": "(Standard system devices)"
+  },
+  {
+    "gerätename": "Microsoft ACPI-Compliant System",
+    "infname": "acpi.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "ACPI x64-based PC",
+    "infname": "hal.inf",
+    "issigned": true,
+    "hersteller": "(Standard computers)"
+  },
+  {
+    "gerätename": "UMBus Root Bus Enumerator",
+    "infname": "umbus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Fanatec Wheel Virtual Mouse",
+    "infname": "oem103.inf",
+    "issigned": true,
+    "hersteller": "Corsair"
+  },
+  {
+    "gerätename": "Microsoft Kernel Debug Network Adapter",
+    "infname": "kdnic.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Storage Spaces Controller",
+    "infname": "spaceport.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Virtual Drive Enumerator",
+    "infname": "vdrvroot.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Composite Bus Enumerator",
+    "infname": "compositebus.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+    "infname": "wvid.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64",
+    "infname": "oem55.inf",
+    "issigned": true,
+    "hersteller": "Cisco Systems"
+  },
+  {
+    "gerätename": "TAP-NordVPN Windows Adapter V9",
+    "infname": "oem109.inf",
+    "issigned": true,
+    "hersteller": "TAP-NordVPN Windows Provider V9"
+  },
+  {
+    "gerätename": "OpenVPN Data Channel Offload",
+    "infname": "oem108.inf",
+    "issigned": true,
+    "hersteller": "OpenVPN, Inc"
+  },
+  {
+    "gerätename": "VirtualBox Host-Only Ethernet Adapter",
+    "infname": "oem53.inf",
+    "issigned": true,
+    "hersteller": "Oracle Corporation"
+  },
+  {
+    "gerätename": "Microsoft Basic Display Driver",
+    "infname": "basicdisplay.inf",
+    "issigned": true,
+    "hersteller": "(Standard display types)"
+  },
+  {
+    "gerätename": "Microsoft Hyper-V Virtual Machine Bus Provider",
+    "infname": "wvmbusr.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume",
+    "infname": "volume.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  },
+  {
+    "gerätename": "Volume Manager",
+    "infname": "volmgr.inf",
+    "issigned": true,
+    "hersteller": "Microsoft"
+  }
+]
